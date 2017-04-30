@@ -1,5 +1,5 @@
 MPLINK 4.40, Linker
-Linker Map File - Created Sat Apr 29 19:43:45 2017
+Linker Map File - Created Sat Apr 29 21:11:40 2017
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -12,30 +12,30 @@ REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x001008    program   0x000006
 REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
                    .cinit    romdata   0x00102a    program   0x000002
        .code_usb_device.o       code   0x00102c    program   0x0010ee
-             .code_main.o       code   0x00211a    program   0x00065c
- .code_usb_function_cdc.o       code   0x002776    program   0x000468
-.romdata_usb_descriptors.o    romdata   0x002bde    program   0x0000c9
-.romdata_usb_function_cdc.o    romdata   0x002ca7    program   0x000000
-      .idata_fxd1616u.o_i    romdata   0x002ca7    program   0x000000
-      .romdata_fxd1616u.o    romdata   0x002ca7    program   0x000000
-        .idata___init.o_i    romdata   0x002ca7    program   0x000000
-        .romdata___init.o    romdata   0x002ca7    program   0x000000
-.idata_usb_function_cdc.o_i    romdata   0x002ca7    program   0x000000
-    .romdata_usb_device.o    romdata   0x002ca7    program   0x000000
-    .idata_usb_device.o_i    romdata   0x002ca7    program   0x000000
-.idata_usb_descriptors.o_i    romdata   0x002ca7    program   0x000000
-         .idata_c018i.o_i    romdata   0x002ca7    program   0x000000
-         .romdata_c018i.o    romdata   0x002ca7    program   0x000000
-          .idata_main.o_i    romdata   0x002ca7    program   0x000000
-          .romdata_main.o    romdata   0x002ca7    program   0x000000
-            .code_c018i.o       code   0x002ca8    program   0x000000
-               _cinit_scn       code   0x002ca8    program   0x00009e
-  .code_usb_descriptors.o       code   0x002ca8    program   0x000000
-                   STRING       code   0x002d46    program   0x000034
-         .code_fxd1616u.o       code   0x002d7a    program   0x00002c
-                    .code       code   0x002da6    program   0x000020
-             _startup_scn       code   0x002dc6    program   0x00001c
-           .code___init.o       code   0x002de2    program   0x000002
+             .code_main.o       code   0x00211a    program   0x000684
+ .code_usb_function_cdc.o       code   0x00279e    program   0x000468
+.romdata_usb_descriptors.o    romdata   0x002c06    program   0x0000c9
+.romdata_usb_function_cdc.o    romdata   0x002ccf    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x002ccf    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x002ccf    program   0x000000
+        .idata___init.o_i    romdata   0x002ccf    program   0x000000
+        .romdata___init.o    romdata   0x002ccf    program   0x000000
+.idata_usb_function_cdc.o_i    romdata   0x002ccf    program   0x000000
+    .romdata_usb_device.o    romdata   0x002ccf    program   0x000000
+    .idata_usb_device.o_i    romdata   0x002ccf    program   0x000000
+.idata_usb_descriptors.o_i    romdata   0x002ccf    program   0x000000
+         .idata_c018i.o_i    romdata   0x002ccf    program   0x000000
+         .romdata_c018i.o    romdata   0x002ccf    program   0x000000
+          .idata_main.o_i    romdata   0x002ccf    program   0x000000
+          .romdata_main.o    romdata   0x002ccf    program   0x000000
+            .code_c018i.o       code   0x002cd0    program   0x000000
+               _cinit_scn       code   0x002cd0    program   0x00009e
+  .code_usb_descriptors.o       code   0x002cd0    program   0x000000
+                   STRING       code   0x002d6e    program   0x000034
+         .code_fxd1616u.o       code   0x002da2    program   0x00002c
+                    .code       code   0x002dce    program   0x000020
+             _startup_scn       code   0x002dee    program   0x00001c
+           .code___init.o       code   0x002e0a    program   0x000002
     .config_300000_main.o    romdata   0x300000    program   0x000001
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
@@ -51,20 +51,20 @@ REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
                 MATH_DATA      udata   0x000000       data   0x000010
                  .tmpdata      udata   0x000010       data   0x000003
 YourHighPriorityISRCode_tmp      udata   0x000013       data   0x000002
-            .udata_main.o      udata   0x000060       data   0x000091
-           .udata_c018i.o      udata   0x0000f1       data   0x00000a
-          .idata___init.o      idata   0x0000fb       data   0x000000
-          .udata___init.o      udata   0x0000fb       data   0x000000
-        .idata_fxd1616u.o      idata   0x0000fb       data   0x000000
-        .udata_fxd1616u.o      udata   0x0000fb       data   0x000000
-.idata_usb_function_cdc.o      idata   0x0000fb       data   0x000000
-      .idata_usb_device.o      idata   0x0000fb       data   0x000000
- .idata_usb_descriptors.o      idata   0x0000fb       data   0x000000
- .udata_usb_descriptors.o      udata   0x0000fb       data   0x000000
-            .idata_main.o      idata   0x0000fb       data   0x000000
-           .idata_c018i.o      idata   0x0000fb       data   0x000000
+            .udata_main.o      udata   0x000060       data   0x000099
+          .idata___init.o      idata   0x0000f9       data   0x000000
+          .udata___init.o      udata   0x0000f9       data   0x000000
+        .idata_fxd1616u.o      idata   0x0000f9       data   0x000000
+        .udata_fxd1616u.o      udata   0x0000f9       data   0x000000
+.idata_usb_function_cdc.o      idata   0x0000f9       data   0x000000
+      .idata_usb_device.o      idata   0x0000f9       data   0x000000
+ .idata_usb_descriptors.o      idata   0x0000f9       data   0x000000
+ .udata_usb_descriptors.o      udata   0x0000f9       data   0x000000
+            .idata_main.o      idata   0x0000f9       data   0x000000
+           .idata_c018i.o      idata   0x0000f9       data   0x000000
       .udata_usb_device.o      udata   0x000100       data   0x000036
 .udata_usb_function_cdc.o      udata   0x000136       data   0x000019
+           .udata_c018i.o      udata   0x00014f       data   0x00000a
                    .stack      udata   0x000300       data   0x000100
                   USB_BDT      udata   0x000400       data   0x000050
             USB_VARIABLES      udata   0x000500       data   0x00008f
@@ -81,140 +81,145 @@ YourHighPriorityISRCode_tmp      udata   0x000013       data   0x000002
                             0x001000    0x001005      
                             0x001008    0x00100d      
                             0x001018    0x00101d      
-                            0x00102a    0x002ca6      
-                            0x002ca8    0x002de3      
+                            0x00102a    0x002cce      
+                            0x002cd0    0x002e0b      
                             0x300000    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            7657 out of 33048 program addresses used, program memory utilization is 23%
+            7697 out of 33048 program addresses used, program memory utilization is 23%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                CDCInitEP   0x002818    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-             CDCTxService   0x002a8a    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                 FXD1616U   0x002d7a    program     extern C:\MCC18\v3_39\src\traditional\math\fxd1616u.c
-                 High_ISR   0x000008    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-         InitializeSystem   0x0022f8    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                  Low_ISR   0x000018    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                ProcessIO   0x002340    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-        Remapped_High_ISR   0x001008    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-         Remapped_Low_ISR   0x001018    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-       USBCBCheckOtherReq   0x0026ba    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-        USBCBErrorHandler   0x0026b8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              USBCBInitEP   0x0026c0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-          USBCBSendResume   0x0026c4    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-    USBCBStdSetDscHandler   0x0026be    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-             USBCBSuspend   0x002684    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-     USBCBWakeFromSuspend   0x002686    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-        USBCB_SOF_Handler   0x002688    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              USBCancelIO   0x00202e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-       USBCheckCDCRequest   0x002776    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-       USBCheckStdRequest   0x0014f8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-     USBConfigureEndpoint   0x001d1c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-         USBCtrlEPService   0x00128c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
- USBCtrlEPServiceComplete   0x00184e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBCtrlTrfInHandler   0x0013f8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-     USBCtrlTrfOutHandler   0x0013ac    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBCtrlTrfRxService   0x001b0e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-   USBCtrlTrfSetupHandler   0x001366    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBCtrlTrfTxService   0x0019f8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-          USBDeviceAttach   0x0020ec    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-          USBDeviceDetach   0x0020de    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-            USBDeviceInit   0x00102c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-           USBDeviceTasks   0x0010c8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-        USBEnableEndpoint   0x001df0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-USBPrepareForNextSetupTrf   0x001492    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-         USBStallEndpoint   0x001e5c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-          USBStallHandler   0x00120c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-  USBStdFeatureReqHandler   0x0015c0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBStdGetDscHandler   0x0016d8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-   USBStdGetStatusHandler   0x00178c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBStdSetCfgHandler   0x001c4a    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-               USBSuspend   0x00123e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-     USBTransferOnePacket   0x001f3c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-       USBWakeFromSuspend   0x001262    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-               USB_CD_Ptr   0x002c9f    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-               USB_SD_Ptr   0x002ca1    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                 UserInit   0x002302    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-  YourHighPriorityISRCode   0x00211a    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-   YourLowPriorityISRCode   0x0022c6    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              _2jContinue   0x002d66    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                   _3jEnd   0x002d70    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-     ___case_114_lbl00076   0x002764    program     static                          
-     ___case_115_lbl00072   0x002754    program     static                          
-     ___case_116_lbl00074   0x00275c    program     static                          
-     ___case_117_lbl00073   0x002758    program     static                          
-       ___case_1_lbl00069   0x002748    program     static                          
-       ___case_2_lbl00070   0x00274c    program     static                          
-   ___case_32767_lbl00075   0x002760    program     static                          
-       ___case_3_lbl00071   0x002750    program     static                          
-      ___default_lbl00077   0x002768    program     static                          
+                CDCInitEP   0x002840    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+             CDCTxService   0x002ab2    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                 FXD1616U   0x002da2    program     extern C:\MCC18\v3_39\src\traditional\math\fxd1616u.c
+                 High_ISR   0x000008    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+             InitHardware   0x002442    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+             InitSoftware   0x002488    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+         InitializeSystem   0x002438    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+                  Low_ISR   0x000018    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                ProcessIO   0x0024a0    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+        Remapped_High_ISR   0x001008    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+         Remapped_Low_ISR   0x001018    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+       USBCBCheckOtherReq   0x0026e2    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+        USBCBErrorHandler   0x0026e0    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              USBCBInitEP   0x0026e8    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+          USBCBSendResume   0x0026ec    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+    USBCBStdSetDscHandler   0x0026e6    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+             USBCBSuspend   0x0026ac    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+     USBCBWakeFromSuspend   0x0026ae    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+        USBCB_SOF_Handler   0x0026b0    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              USBCancelIO   0x00202e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+       USBCheckCDCRequest   0x00279e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+       USBCheckStdRequest   0x0014f8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+     USBConfigureEndpoint   0x001d1c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+         USBCtrlEPService   0x00128c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+ USBCtrlEPServiceComplete   0x00184e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBCtrlTrfInHandler   0x0013f8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+     USBCtrlTrfOutHandler   0x0013ac    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBCtrlTrfRxService   0x001b0e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+   USBCtrlTrfSetupHandler   0x001366    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBCtrlTrfTxService   0x0019f8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+          USBDeviceAttach   0x0020ec    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+          USBDeviceDetach   0x0020de    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+            USBDeviceInit   0x00102c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+           USBDeviceTasks   0x0010c8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+        USBEnableEndpoint   0x001df0    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+USBPrepareForNextSetupTrf   0x001492    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+         USBStallEndpoint   0x001e5c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+          USBStallHandler   0x00120c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+  USBStdFeatureReqHandler   0x0015c0    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBStdGetDscHandler   0x0016d8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+   USBStdGetStatusHandler   0x00178c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBStdSetCfgHandler   0x001c4a    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+               USBSuspend   0x00123e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+     USBTransferOnePacket   0x001f3c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+       USBWakeFromSuspend   0x001262    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+               USB_CD_Ptr   0x002cc7    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+               USB_SD_Ptr   0x002cc9    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x002708    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                 UserInit   0x00249a    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+  YourHighPriorityISRCode   0x00211a    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+   YourLowPriorityISRCode   0x0022c6    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              _2jContinue   0x002d8e    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x002d98    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+     ___case_114_lbl00079   0x00278c    program     static                          
+     ___case_115_lbl00075   0x00277c    program     static                          
+     ___case_116_lbl00077   0x002784    program     static                          
+     ___case_117_lbl00076   0x002780    program     static                          
+       ___case_1_lbl00072   0x002770    program     static                          
+       ___case_2_lbl00073   0x002774    program     static                          
+   ___case_32767_lbl00078   0x002788    program     static                          
+       ___case_3_lbl00074   0x002778    program     static                          
+      ___default_lbl00080   0x002790    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x002da4    program     static                          
        ___return_lbl00000   0x001004    program     static                          
+       ___return_lbl00000   0x002dcc    program     static                          
        ___return_lbl00001   0x00100c    program     static                          
-       ___return_lbl00001   0x002de0    program     static                          
-       ___return_lbl00002   0x002d44    program     static                          
+       ___return_lbl00001   0x002e08    program     static                          
        ___return_lbl00002   0x00101c    program     static                          
+       ___return_lbl00002   0x002d6c    program     static                          
        ___return_lbl00003   0x00000c    program     static                          
        ___return_lbl00004   0x00001c    program     static                          
-       ___return_lbl00067   0x00276e    program     static                          
-   ___switchexit_lbl00068   0x00276a    program     static                          
-               __config_0   0x300000    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_1   0x300001    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              __config_10   0x30000c    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              __config_11   0x30000d    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_2   0x300002    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_3   0x300003    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_4   0x300005    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_5   0x300006    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_6   0x300008    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_7   0x300009    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_8   0x30000a    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_9   0x30000b    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                   __init   0x002de2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
-               __tmplbl_2   0x0026fc    program     static                          
-               __tmplbl_3   0x002708    program     static                          
-               __tmplbl_4   0x002712    program     static                          
-               __tmplbl_5   0x00271c    program     static                          
-               __tmplbl_6   0x002726    program     static                          
-               __tmplbl_7   0x002730    program     static                          
-               __tmplbl_8   0x00273a    program     static                          
-               __tmplbl_9   0x002744    program     static                          
-            __zero_memory   0x002da6    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                _do_cinit   0x002ca8    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+       ___return_lbl00070   0x002796    program     static                          
+   ___switchexit_lbl00071   0x002792    program     static                          
+               __config_0   0x300000    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_1   0x300001    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+              __config_10   0x30000c    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+              __config_11   0x30000d    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_2   0x300002    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_3   0x300003    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_4   0x300005    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_5   0x300006    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_6   0x300008    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_7   0x300009    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_8   0x30000a    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_9   0x30000b    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+                   __init   0x002e0a    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
+               __tmplbl_2   0x002724    program     static                          
+               __tmplbl_3   0x002730    program     static                          
+               __tmplbl_4   0x00273a    program     static                          
+               __tmplbl_5   0x002744    program     static                          
+               __tmplbl_6   0x00274e    program     static                          
+               __tmplbl_7   0x002758    program     static                          
+               __tmplbl_8   0x002762    program     static                          
+               __tmplbl_9   0x00276c    program     static                          
+            __zero_memory   0x002dce    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                _do_cinit   0x002cd0    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                   _reset   0x001000    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                 _startup   0x002dc6    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                compare_l   0x002dbc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-        configDescriptor1   0x002bf0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                copy_loop   0x002d1a    program     static                          
-            copy_one_byte   0x002d20    program     static                          
-               device_dsc   0x002bde    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                     done   0x002d44    program     static                          
-             done_copying   0x002d2e    program     static                          
-                  endloop   0x002da0    program     static                          
-             getsUSBUSART   0x002880    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                     jEnd   0x002d78    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                    jLoop   0x002d5a    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                     loop   0x002d84    program     static                          
-                     loop   0x002dd6    program     static                          
-                   loop_h   0x002db4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                   loop_l   0x002dbe    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     main   0x0022ec    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                   memset   0x002d46    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-              putUSBUSART   0x002942    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-            putrsUSBUSART   0x0029fe    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-             putsUSBUSART   0x002974    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                    sd000   0x002c33    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                    sd001   0x002c37    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                    sd002   0x002c6b    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                     test   0x002cc2    program     static                          
-               zero_block   0x002db4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                   _reset   0x001000    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                 _startup   0x002dee    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                compare_l   0x002de4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+        configDescriptor1   0x002c18    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                copy_loop   0x002d42    program     static                          
+            copy_one_byte   0x002d48    program     static                          
+               device_dsc   0x002c06    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                     done   0x002d6c    program     static                          
+             done_copying   0x002d56    program     static                          
+                  endloop   0x002dc8    program     static                          
+             getsUSBUSART   0x0028a8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                     jEnd   0x002da0    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                    jLoop   0x002d82    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                     loop   0x002dfe    program     static                          
+                     loop   0x002dac    program     static                          
+                   loop_h   0x002ddc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                   loop_l   0x002de6    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     main   0x0022ec    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                   memset   0x002d6e    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                 printOdo   0x0022f8    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              putUSBUSART   0x00296a    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+            putrsUSBUSART   0x002a26    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+             putsUSBUSART   0x00299c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                   readKm   0x00247a    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                   saveKm   0x002486    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                    sd000   0x002c5b    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                    sd001   0x002c5f    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                    sd002   0x002c93    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                     test   0x002cea    program     static                          
+               zero_block   0x002ddc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    ADCON0   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                ADCON0bits   0x000fc2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    ADCON1   0x000fc1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -228,10 +233,10 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyPro
               BAUDCONbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   BAUDCTL   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
               BAUDCTLbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                      BDT   0x000400       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
+                      BDT   0x000400       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
                       BSR   0x000fe0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-              BaudRateGen   0x000143       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-       BothEP0OutUOWNsSet   0x000129       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
+              BaudRateGen   0x000143       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+       BothEP0OutUOWNsSet   0x000129       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
                    CCP1AS   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                CCP1ASbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   CCP1CON   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -246,13 +251,13 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyPro
                     CCPR2   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CCPR2H   0x000fbc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CCPR2L   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-          CDCDataInHandle   0x000140       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-         CDCDataOutHandle   0x00013e       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
+          CDCDataInHandle   0x000140       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+         CDCDataOutHandle   0x00013e       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
                     CMCON   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 CMCONbits   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CVRCON   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                CVRCONbits   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-              CtrlTrfData   0x000448       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
+              CtrlTrfData   0x000448       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
                      DDRA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  DDRAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      DDRB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -357,7 +362,7 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyPro
                     RCREG   0x000fae       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     RCSTA   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 RCSTAbits   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-             RemoteWakeup   0x000127       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
+             RemoteWakeup   0x000127       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
                      SIGN   0x00000e       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
                     SPBRG   0x000faf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    SPBRGH   0x000fb0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -380,7 +385,7 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyPro
                STATUSbits   0x000fd8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    STKPTR   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                STKPTRbits   0x000ffc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 SetupPkt   0x000440       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
+                 SetupPkt   0x000440       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
                     T0CON   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 T0CONbits   0x000fd5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     T1CON   0x000fcd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -469,16 +474,16 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyPro
                   UIEbits   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                       UIR   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   UIRbits   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-   USBActiveConfiguration   0x000101       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-    USBAlternateInterface   0x000102       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-           USBDeviceState   0x000100       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                USBInData   0x000130       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-       USBInMaxPacketSize   0x00012a       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-            USB_In_Buffer   0x000060       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-           USB_Out_Buffer   0x0000a0       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
+   USBActiveConfiguration   0x000101       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+    USBAlternateInterface   0x000102       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+           USBDeviceState   0x000100       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                USBInData   0x000130       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+       USBInMaxPacketSize   0x00012a       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+            USB_In_Buffer   0x000060       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+           USB_Out_Buffer   0x0000a0       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
                     USTAT   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 USTATbits   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                USTATcopy   0x000128       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
+                USTATcopy   0x000128       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
                    WDTCON   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                WDTCONbits   0x000fd1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      WREG   0x000fe8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -502,45 +507,48 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyPro
                   __REMB1   0x000002       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB2   0x000001       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB3   0x000000       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
-                  __tmp_0   0x000010       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                  __tmp_0   0x000010       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                  __tmp_0   0x000010       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                  __tmp_1   0x000013       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              buttonCount   0x0000e2       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-            buttonPressed   0x0000e1       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              cdc_data_rx   0x000508       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-              cdc_data_tx   0x000548       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-             cdc_mem_type   0x00013d       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-               cdc_notice   0x000500       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-               cdc_rx_len   0x000136       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-            cdc_trf_state   0x000137       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-               cdc_tx_len   0x00013c       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                      cen   0x0000e6       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-     controlTransferState   0x000118       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-    control_signal_bitmap   0x000142       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                curr_byte   0x0000f4       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-               curr_entry   0x0000f6       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                 data_ptr   0x0000f8       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                      dec   0x0000e7       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              delay_count   0x0000ef       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                  inPipes   0x000119       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-              line_coding   0x000588       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                      mil   0x0000e5       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               odoCounter   0x0000e3       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                 outPipes   0x00011e       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-   pBDTEntryEP0OutCurrent   0x000103       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      pBDTEntryEP0OutNext   0x000105       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-              pBDTEntryIn   0x00010f       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-             pBDTEntryOut   0x000107       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                  pCDCDst   0x00013a       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                  pCDCSrc   0x000138       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                     pDst   0x000125       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                     prom   0x0000f1       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-        shortPacketStatus   0x000117       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-            stringPrinted   0x0000e0       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                   tosend   0x0000e9       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                      uni   0x0000e8       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
+                  __tmp_0   0x000010       data     static D:\Silvio\Projects\Firmware - Odo\main.c
+                  __tmp_0   0x000010       data     static D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                  __tmp_0   0x000010       data     static D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                  __tmp_1   0x000013       data     static D:\Silvio\Projects\Firmware - Odo\main.c
+              buttonCount   0x0000e2       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+            buttonPressed   0x0000e1       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              cdc_data_rx   0x000508       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+              cdc_data_tx   0x000548       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+             cdc_mem_type   0x00013d       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+               cdc_notice   0x000500       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+               cdc_rx_len   0x000136       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+            cdc_trf_state   0x000137       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+               cdc_tx_len   0x00013c       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                      cen   0x0000f4       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+     controlTransferState   0x000118       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+    control_signal_bitmap   0x000142       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                curr_byte   0x000152       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+               curr_entry   0x000154       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                 data_ptr   0x000156       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                      dec   0x0000f5       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              delay_count   0x0000f7       data     static D:\Silvio\Projects\Firmware - Odo\main.c
+                    delta   0x0000e7       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                  inPipes   0x000119       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                       km   0x0000e9       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              line_coding   0x000588       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                      mil   0x0000f3       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+               odoCounter   0x0000e3       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                 outPipes   0x00011e       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+   pBDTEntryEP0OutCurrent   0x000103       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      pBDTEntryEP0OutNext   0x000105       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+              pBDTEntryIn   0x00010f       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+             pBDTEntryOut   0x000107       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                  pCDCDst   0x00013a       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                  pCDCSrc   0x000138       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                     pDst   0x000125       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+              prevCounter   0x0000e5       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                     prom   0x00014f       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+        shortPacketStatus   0x000117       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+            stringPrinted   0x0000e0       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                   toSend   0x0000ed       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                      uni   0x0000f6       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
 
 
 
@@ -549,128 +557,133 @@ dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyPro
                 ---------  ---------  ---------  --------- ---------                
                    _entry   0x000000    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
        ___return_lbl00000   0x000004    program     static                          
-                 High_ISR   0x000008    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
+                 High_ISR   0x000008    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
        ___return_lbl00003   0x00000c    program     static                          
-                  Low_ISR   0x000018    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
+                  Low_ISR   0x000018    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
        ___return_lbl00004   0x00001c    program     static                          
-                   _reset   0x001000    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
+                   _reset   0x001000    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
        ___return_lbl00000   0x001004    program     static                          
-        Remapped_High_ISR   0x001008    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
+        Remapped_High_ISR   0x001008    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
        ___return_lbl00001   0x00100c    program     static                          
-         Remapped_Low_ISR   0x001018    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
+         Remapped_Low_ISR   0x001018    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
        ___return_lbl00002   0x00101c    program     static                          
-            USBDeviceInit   0x00102c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-           USBDeviceTasks   0x0010c8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-          USBStallHandler   0x00120c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-               USBSuspend   0x00123e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-       USBWakeFromSuspend   0x001262    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-         USBCtrlEPService   0x00128c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-   USBCtrlTrfSetupHandler   0x001366    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-     USBCtrlTrfOutHandler   0x0013ac    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBCtrlTrfInHandler   0x0013f8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-USBPrepareForNextSetupTrf   0x001492    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-       USBCheckStdRequest   0x0014f8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-  USBStdFeatureReqHandler   0x0015c0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBStdGetDscHandler   0x0016d8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-   USBStdGetStatusHandler   0x00178c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
- USBCtrlEPServiceComplete   0x00184e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBCtrlTrfTxService   0x0019f8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBCtrlTrfRxService   0x001b0e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      USBStdSetCfgHandler   0x001c4a    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-     USBConfigureEndpoint   0x001d1c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-        USBEnableEndpoint   0x001df0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-         USBStallEndpoint   0x001e5c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-     USBTransferOnePacket   0x001f3c    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-              USBCancelIO   0x00202e    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-          USBDeviceDetach   0x0020de    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-          USBDeviceAttach   0x0020ec    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-  YourHighPriorityISRCode   0x00211a    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-   YourLowPriorityISRCode   0x0022c6    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                     main   0x0022ec    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-         InitializeSystem   0x0022f8    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                 UserInit   0x002302    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                ProcessIO   0x002340    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-             USBCBSuspend   0x002684    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-     USBCBWakeFromSuspend   0x002686    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-        USBCB_SOF_Handler   0x002688    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-        USBCBErrorHandler   0x0026b8    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-       USBCBCheckOtherReq   0x0026ba    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-    USBCBStdSetDscHandler   0x0026be    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              USBCBInitEP   0x0026c0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-          USBCBSendResume   0x0026c4    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __tmplbl_2   0x0026fc    program     static                          
-               __tmplbl_3   0x002708    program     static                          
-               __tmplbl_4   0x002712    program     static                          
-               __tmplbl_5   0x00271c    program     static                          
-               __tmplbl_6   0x002726    program     static                          
-               __tmplbl_7   0x002730    program     static                          
-               __tmplbl_8   0x00273a    program     static                          
-               __tmplbl_9   0x002744    program     static                          
-       ___case_1_lbl00069   0x002748    program     static                          
-       ___case_2_lbl00070   0x00274c    program     static                          
-       ___case_3_lbl00071   0x002750    program     static                          
-     ___case_115_lbl00072   0x002754    program     static                          
-     ___case_117_lbl00073   0x002758    program     static                          
-     ___case_116_lbl00074   0x00275c    program     static                          
-   ___case_32767_lbl00075   0x002760    program     static                          
-     ___case_114_lbl00076   0x002764    program     static                          
-      ___default_lbl00077   0x002768    program     static                          
-   ___switchexit_lbl00068   0x00276a    program     static                          
-       ___return_lbl00067   0x00276e    program     static                          
-       USBCheckCDCRequest   0x002776    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                CDCInitEP   0x002818    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-             getsUSBUSART   0x002880    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-              putUSBUSART   0x002942    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-             putsUSBUSART   0x002974    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-            putrsUSBUSART   0x0029fe    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-             CDCTxService   0x002a8a    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-               device_dsc   0x002bde    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-        configDescriptor1   0x002bf0    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                    sd000   0x002c33    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                    sd001   0x002c37    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                    sd002   0x002c6b    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-               USB_CD_Ptr   0x002c9f    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-               USB_SD_Ptr   0x002ca1    program     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_descriptors.c
-                _do_cinit   0x002ca8    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                     test   0x002cc2    program     static                          
-                copy_loop   0x002d1a    program     static                          
-            copy_one_byte   0x002d20    program     static                          
-             done_copying   0x002d2e    program     static                          
-                     done   0x002d44    program     static                          
-       ___return_lbl00002   0x002d44    program     static                          
-                   memset   0x002d46    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                    jLoop   0x002d5a    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-              _2jContinue   0x002d66    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                   _3jEnd   0x002d70    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                     jEnd   0x002d78    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
-                 FXD1616U   0x002d7a    program     extern C:\MCC18\v3_39\src\traditional\math\fxd1616u.c
-                     loop   0x002d84    program     static                          
-                  endloop   0x002da0    program     static                          
-       ___return_lbl00000   0x002da4    program     static                          
-            __zero_memory   0x002da6    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-               zero_block   0x002db4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                   loop_h   0x002db4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                compare_l   0x002dbc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                   loop_l   0x002dbe    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 _startup   0x002dc6    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                     loop   0x002dd6    program     static                          
-       ___return_lbl00001   0x002de0    program     static                          
-                   __init   0x002de2    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
-               __config_0   0x300000    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_1   0x300001    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_2   0x300002    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_3   0x300003    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_4   0x300005    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_5   0x300006    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_6   0x300008    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_7   0x300009    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_8   0x30000a    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               __config_9   0x30000b    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              __config_10   0x30000c    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              __config_11   0x30000d    program     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                  __REMB3   0x000000       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+            USBDeviceInit   0x00102c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+           USBDeviceTasks   0x0010c8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+          USBStallHandler   0x00120c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+               USBSuspend   0x00123e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+       USBWakeFromSuspend   0x001262    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+         USBCtrlEPService   0x00128c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+   USBCtrlTrfSetupHandler   0x001366    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+     USBCtrlTrfOutHandler   0x0013ac    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBCtrlTrfInHandler   0x0013f8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+USBPrepareForNextSetupTrf   0x001492    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+       USBCheckStdRequest   0x0014f8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+  USBStdFeatureReqHandler   0x0015c0    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBStdGetDscHandler   0x0016d8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+   USBStdGetStatusHandler   0x00178c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+ USBCtrlEPServiceComplete   0x00184e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBCtrlTrfTxService   0x0019f8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBCtrlTrfRxService   0x001b0e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      USBStdSetCfgHandler   0x001c4a    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+     USBConfigureEndpoint   0x001d1c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+        USBEnableEndpoint   0x001df0    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+         USBStallEndpoint   0x001e5c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+     USBTransferOnePacket   0x001f3c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+              USBCancelIO   0x00202e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+          USBDeviceDetach   0x0020de    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+          USBDeviceAttach   0x0020ec    program     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+  YourHighPriorityISRCode   0x00211a    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+   YourLowPriorityISRCode   0x0022c6    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                     main   0x0022ec    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                 printOdo   0x0022f8    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+         InitializeSystem   0x002438    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+             InitHardware   0x002442    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                   readKm   0x00247a    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                   saveKm   0x002486    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+             InitSoftware   0x002488    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                 UserInit   0x00249a    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                ProcessIO   0x0024a0    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+             USBCBSuspend   0x0026ac    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+     USBCBWakeFromSuspend   0x0026ae    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+        USBCB_SOF_Handler   0x0026b0    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+        USBCBErrorHandler   0x0026e0    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+       USBCBCheckOtherReq   0x0026e2    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+    USBCBStdSetDscHandler   0x0026e6    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              USBCBInitEP   0x0026e8    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+          USBCBSendResume   0x0026ec    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x002708    program     extern D:\Silvio\Projects\Firmware - Odo\main.c
+               __tmplbl_2   0x002724    program     static                          
+               __tmplbl_3   0x002730    program     static                          
+               __tmplbl_4   0x00273a    program     static                          
+               __tmplbl_5   0x002744    program     static                          
+               __tmplbl_6   0x00274e    program     static                          
+               __tmplbl_7   0x002758    program     static                          
+               __tmplbl_8   0x002762    program     static                          
+               __tmplbl_9   0x00276c    program     static                          
+       ___case_1_lbl00072   0x002770    program     static                          
+       ___case_2_lbl00073   0x002774    program     static                          
+       ___case_3_lbl00074   0x002778    program     static                          
+     ___case_115_lbl00075   0x00277c    program     static                          
+     ___case_117_lbl00076   0x002780    program     static                          
+     ___case_116_lbl00077   0x002784    program     static                          
+   ___case_32767_lbl00078   0x002788    program     static                          
+     ___case_114_lbl00079   0x00278c    program     static                          
+      ___default_lbl00080   0x002790    program     static                          
+   ___switchexit_lbl00071   0x002792    program     static                          
+       ___return_lbl00070   0x002796    program     static                          
+       USBCheckCDCRequest   0x00279e    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                CDCInitEP   0x002840    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+             getsUSBUSART   0x0028a8    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+              putUSBUSART   0x00296a    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+             putsUSBUSART   0x00299c    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+            putrsUSBUSART   0x002a26    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+             CDCTxService   0x002ab2    program     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+               device_dsc   0x002c06    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+        configDescriptor1   0x002c18    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                    sd000   0x002c5b    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                    sd001   0x002c5f    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                    sd002   0x002c93    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+               USB_CD_Ptr   0x002cc7    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+               USB_SD_Ptr   0x002cc9    program     extern D:\Silvio\Projects\Firmware - Odo\usb_descriptors.c
+                _do_cinit   0x002cd0    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                     test   0x002cea    program     static                          
+                copy_loop   0x002d42    program     static                          
+            copy_one_byte   0x002d48    program     static                          
+             done_copying   0x002d56    program     static                          
+                     done   0x002d6c    program     static                          
+       ___return_lbl00002   0x002d6c    program     static                          
+                   memset   0x002d6e    program     extern C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                    jLoop   0x002d82    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+              _2jContinue   0x002d8e    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x002d98    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                     jEnd   0x002da0    program     static C:\MCC18\v3_39\src\traditional\stdclib\memset.asm
+                 FXD1616U   0x002da2    program     extern C:\MCC18\v3_39\src\traditional\math\fxd1616u.c
+                     loop   0x002dac    program     static                          
+                  endloop   0x002dc8    program     static                          
+       ___return_lbl00000   0x002dcc    program     static                          
+            __zero_memory   0x002dce    program     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                   loop_h   0x002ddc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+               zero_block   0x002ddc    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                compare_l   0x002de4    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                   loop_l   0x002de6    program     static C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                 _startup   0x002dee    program     extern C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                     loop   0x002dfe    program     static                          
+       ___return_lbl00001   0x002e08    program     static                          
+                   __init   0x002e0a    program     extern C:\MCC18\v3_39\src\traditional\stdclib\__init.c
+               __config_0   0x300000    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_1   0x300001    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_2   0x300002    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_3   0x300003    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_4   0x300005    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_5   0x300006    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_6   0x300008    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_7   0x300009    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_8   0x30000a    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+               __config_9   0x30000b    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+              __config_10   0x30000c    program     static D:\Silvio\Projects\Firmware - Odo\main.c
+              __config_11   0x30000d    program     static D:\Silvio\Projects\Firmware - Odo\main.c
                  __AARGB7   0x000000       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
+                  __REMB3   0x000000       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB6   0x000001       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                   __REMB2   0x000001       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
                  __AARGB5   0x000002       data     extern C:\MCC18\v3_39\src\traditional\math\aarg.asm
@@ -688,63 +701,66 @@ USER_USB_CALLBACK_EVENT_HANDLER   0x0026e0    program     extern D:\Silvio\MyPro
                  __BARGB0   0x00000c       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
                    __BEXP   0x00000d       data     extern C:\MCC18\v3_39\src\traditional\math\barg.asm
                      SIGN   0x00000e       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
-                __FPFLAGS   0x00000f       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
             __FPFLAGSbits   0x00000f       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
-                  __tmp_0   0x000010       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                  __tmp_0   0x000010       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                  __tmp_0   0x000010       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                  __tmp_1   0x000013       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-            USB_In_Buffer   0x000060       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-           USB_Out_Buffer   0x0000a0       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-            stringPrinted   0x0000e0       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-            buttonPressed   0x0000e1       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              buttonCount   0x0000e2       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-               odoCounter   0x0000e3       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                      mil   0x0000e5       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                      cen   0x0000e6       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                      dec   0x0000e7       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                      uni   0x0000e8       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                   tosend   0x0000e9       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-              delay_count   0x0000ef       data     static D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\main.c
-                     prom   0x0000f1       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                curr_byte   0x0000f4       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-               curr_entry   0x0000f6       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-                 data_ptr   0x0000f8       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
-           USBDeviceState   0x000100       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-   USBActiveConfiguration   0x000101       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-    USBAlternateInterface   0x000102       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-   pBDTEntryEP0OutCurrent   0x000103       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-      pBDTEntryEP0OutNext   0x000105       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-             pBDTEntryOut   0x000107       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-              pBDTEntryIn   0x00010f       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-        shortPacketStatus   0x000117       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-     controlTransferState   0x000118       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                  inPipes   0x000119       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                 outPipes   0x00011e       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                     pDst   0x000125       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-             RemoteWakeup   0x000127       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                USTATcopy   0x000128       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-       BothEP0OutUOWNsSet   0x000129       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-       USBInMaxPacketSize   0x00012a       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                USBInData   0x000130       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-               cdc_rx_len   0x000136       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-            cdc_trf_state   0x000137       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                  pCDCSrc   0x000138       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                  pCDCDst   0x00013a       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-               cdc_tx_len   0x00013c       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-             cdc_mem_type   0x00013d       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-         CDCDataOutHandle   0x00013e       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-          CDCDataInHandle   0x000140       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-    control_signal_bitmap   0x000142       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-              BaudRateGen   0x000143       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-                      BDT   0x000400       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-                 SetupPkt   0x000440       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-              CtrlTrfData   0x000448       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_device.c
-               cdc_notice   0x000500       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-              cdc_data_rx   0x000508       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-              cdc_data_tx   0x000548       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
-              line_coding   0x000588       data     extern D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware - Odo\usb_function_cdc.c
+                __FPFLAGS   0x00000f       data     extern C:\MCC18\v3_39\src\traditional\math\cmath18.asm
+                  __tmp_0   0x000010       data     static D:\Silvio\Projects\Firmware - Odo\main.c
+                  __tmp_0   0x000010       data     static D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                  __tmp_0   0x000010       data     static D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                  __tmp_1   0x000013       data     static D:\Silvio\Projects\Firmware - Odo\main.c
+            USB_In_Buffer   0x000060       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+           USB_Out_Buffer   0x0000a0       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+            stringPrinted   0x0000e0       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+            buttonPressed   0x0000e1       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              buttonCount   0x0000e2       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+               odoCounter   0x0000e3       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              prevCounter   0x0000e5       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                    delta   0x0000e7       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                       km   0x0000e9       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                   toSend   0x0000ed       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                      mil   0x0000f3       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                      cen   0x0000f4       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                      dec   0x0000f5       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+                      uni   0x0000f6       data     extern D:\Silvio\Projects\Firmware - Odo\main.c
+              delay_count   0x0000f7       data     static D:\Silvio\Projects\Firmware - Odo\main.c
+           USBDeviceState   0x000100       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+   USBActiveConfiguration   0x000101       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+    USBAlternateInterface   0x000102       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+   pBDTEntryEP0OutCurrent   0x000103       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+      pBDTEntryEP0OutNext   0x000105       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+             pBDTEntryOut   0x000107       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+              pBDTEntryIn   0x00010f       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+        shortPacketStatus   0x000117       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+     controlTransferState   0x000118       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                  inPipes   0x000119       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                 outPipes   0x00011e       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                     pDst   0x000125       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+             RemoteWakeup   0x000127       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                USTATcopy   0x000128       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+       BothEP0OutUOWNsSet   0x000129       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+       USBInMaxPacketSize   0x00012a       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                USBInData   0x000130       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+               cdc_rx_len   0x000136       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+            cdc_trf_state   0x000137       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                  pCDCSrc   0x000138       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                  pCDCDst   0x00013a       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+               cdc_tx_len   0x00013c       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+             cdc_mem_type   0x00013d       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+         CDCDataOutHandle   0x00013e       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+          CDCDataInHandle   0x000140       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+    control_signal_bitmap   0x000142       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+              BaudRateGen   0x000143       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+                     prom   0x00014f       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                curr_byte   0x000152       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+               curr_entry   0x000154       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                 data_ptr   0x000156       data     static C:\MCC18\v3_39\src\traditional\startup\c018i.c
+                      BDT   0x000400       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+                 SetupPkt   0x000440       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+              CtrlTrfData   0x000448       data     extern D:\Silvio\Projects\Firmware - Odo\usb_device.c
+               cdc_notice   0x000500       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+              cdc_data_rx   0x000508       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+              cdc_data_tx   0x000548       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
+              line_coding   0x000588       data     extern D:\Silvio\Projects\Firmware - Odo\usb_function_cdc.c
                   SPPDATA   0x000f62       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    SPPCFG   0x000f63       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                SPPCFGbits   0x000f63       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -752,51 +768,51 @@ dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyPro
                SPPEPSbits   0x000f64       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                SPPCONbits   0x000f65       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    SPPCON   0x000f65       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                UFRMLbits   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                    UFRML   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UFRM   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                    UFRMH   0x000f67       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                    UFRML   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                UFRMLbits   0x000f66       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 UFRMHbits   0x000f67       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                    UFRMH   0x000f67       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                       UIR   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   UIRbits   0x000f68       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                       UIE   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   UIEbits   0x000f69       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     UEIR   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEIRbits   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     UEIE   0x000f6b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     UEIR   0x000f6a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEIEbits   0x000f6b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                USTATbits   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     UEIE   0x000f6b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     USTAT   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                USTATbits   0x000f6c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UCON   0x000f6d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UCONbits   0x000f6d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     UADDR   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 UADDRbits   0x000f6e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 UCFGbits   0x000f6f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UCFG   0x000f6f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 UEP0bits   0x000f70       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                 UCFGbits   0x000f6f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP0   0x000f70       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                 UEP0bits   0x000f70       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEP1bits   0x000f71       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP1   0x000f71       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     UEP2   0x000f72       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEP2bits   0x000f72       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 UEP3bits   0x000f73       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     UEP2   0x000f72       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP3   0x000f73       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     UEP4   0x000f74       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                 UEP3bits   0x000f73       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEP4bits   0x000f74       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     UEP4   0x000f74       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP5   0x000f75       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEP5bits   0x000f75       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP6   0x000f76       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEP6bits   0x000f76       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 UEP7bits   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP7   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                 UEP7bits   0x000f77       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEP8bits   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP8   0x000f78       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  UEP9bits   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      UEP9   0x000f79       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                UEP10bits   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     UEP10   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                UEP11bits   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                UEP10bits   0x000f7a       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     UEP11   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                UEP11bits   0x000f7b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 UEP12bits   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     UEP12   0x000f7c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 UEP13bits   0x000f7d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -807,8 +823,8 @@ dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyPro
                     UEP15   0x000f7f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 PORTAbits   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     PORTA   0x000f80       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                    PORTB   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 PORTBbits   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                    PORTB   0x000f81       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     PORTC   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 PORTCbits   0x000f82       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     PORTD   0x000f83       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -823,40 +839,40 @@ dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyPro
                      LATC   0x000f8b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  LATDbits   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      LATD   0x000f8c       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     LATE   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  LATEbits   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     LATE   0x000f8d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                 DDRAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     TRISA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 TRISAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      DDRA   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 DDRAbits   0x000f92       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     TRISB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 TRISBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      DDRB   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  DDRBbits   0x000f93       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                    TRISC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                TRISCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      DDRC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  DDRCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                    TRISD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                TRISCbits   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                    TRISC   0x000f94       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 TRISDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                    TRISD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  DDRDbits   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      DDRD   0x000f95       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                    TRISE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 TRISEbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     DDRE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                    TRISE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  DDREbits   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     DDRE   0x000f96       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   OSCTUNE   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
               OSCTUNEbits   0x000f9b       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      PIE1   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  PIE1bits   0x000f9d       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      PIR1   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  PIR1bits   0x000f9e       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     IPR1   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  IPR1bits   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     IPR1   0x000f9f       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      PIE2   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  PIE2bits   0x000fa0       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                     PIR2   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  PIR2bits   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                     PIR2   0x000fa1       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                      IPR2   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  IPR2bits   0x000fa2       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    EECON1   0x000fa6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -864,10 +880,10 @@ dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyPro
                    EECON2   0x000fa7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    EEDATA   0x000fa8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     EEADR   0x000fa9       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                    RCSTA   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 RCSTAbits   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                TXSTAbits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                    RCSTA   0x000fab       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     TXSTA   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                TXSTAbits   0x000fac       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     TXREG   0x000fad       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     RCREG   0x000fae       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     SPBRG   0x000faf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
@@ -878,29 +894,29 @@ dummy_encapsulated_cmd_response   0x000147       data     extern D:\Silvio\MyPro
                     TMR3H   0x000fb3       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                 CMCONbits   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     CMCON   0x000fb4       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-               CVRCONbits   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CVRCON   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+               CVRCONbits   0x000fb5       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CCP1AS   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                CCP1ASbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   ECCP1AS   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-             ECCP1DELbits   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                 ECCP1DEL   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+              ECCP1ASbits   0x000fb6       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   CCP1DEL   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
               CCP1DELbits   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                  BAUDCON   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+             ECCP1DELbits   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                 ECCP1DEL   0x000fb7       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
               BAUDCONbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   BAUDCTL   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
               BAUDCTLbits   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                  BAUDCON   0x000fb8       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                   CCP2CON   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
               CCP2CONbits   0x000fba       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CCPR2L   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     CCPR2   0x000fbb       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CCPR2H   0x000fbc       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
-                  CCP1CON   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
              ECCP1CONbits   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                  ECCP1CON   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
               CCP1CONbits   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
+                  CCP1CON   0x000fbd       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CCPR1L   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                     CCPR1   0x000fbe       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm
                    CCPR1H   0x000fbf       data     extern C:\MCC18\v3_39\src\traditional\proc\p18F4550.asm

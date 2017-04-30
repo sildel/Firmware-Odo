@@ -59,6 +59,11 @@ unsigned int odoCounter;
 unsigned int prevCounter;
 unsigned int delta;
 unsigned long km;
+unsigned char toSend[6];
+unsigned char mil;
+unsigned char cen;
+unsigned char dec;
+unsigned char uni;
 /////////////////////////////////////////////////////////////////
 static void InitializeSystem(void);
 void ProcessIO(void);
@@ -73,6 +78,11 @@ void UserInit(void);
 #define REMAPPED_LOW_INTERRUPT_VECTOR_ADDRESS	0x1018
 /////////////////////////////////////////////////////////////////
 extern void _startup(void); // See c018i.c in your C18 compiler dir
+void printOdo(void);
+void saveKm(void);
+void readKm(void);
+void InitHardware(void);
+void InitSoftware(void);
 /////////////////////////////////////////////////////////////////
 #pragma code REMAPPED_RESET_VECTOR = REMAPPED_RESET_VECTOR_ADDRESS
 
@@ -117,13 +127,6 @@ void YourHighPriorityISRCode()
 
     if (INTCONbits.TMR0IF)
     {
-        delta = odoCounter - prevCounter;
-        prevCounter = odoCounter;
-
-        km += delta;
-
-        saveKm();
-
         TMR0H = 0x48;
         TMR0L = 0xE5;
 
@@ -135,6 +138,20 @@ void YourHighPriorityISRCode()
     if(INTCONbits.INT0IF)
     {
         odoCounter++;
+
+        mil = odoCounter / 1000;
+        cen = (odoCounter % 1000) / 100;
+        dec = (odoCounter % 100) / 10;
+        uni = odoCounter % 10;
+
+        toSend[0] = mil + '0';
+        toSend[1] = cen + '0';
+        toSend[2] = dec + '0';
+        toSend[3] = uni + '0';
+        toSend[4] = '\r';
+        toSend[5] = '\0';
+
+        putsUSBUSART((char*) toSend);
 
         INTCONbits.INT0IF=0;
     }
@@ -163,6 +180,24 @@ void main(void)
 }
 /////////////////////////////////////////////////////////////////
 
+void printOdo()
+{
+    unsigned char toSend[6];
+    unsigned char mil = odoCounter / 1000;
+    unsigned char cen = (odoCounter % 1000) / 100;
+    unsigned char dec = (odoCounter % 100) / 10;
+    unsigned char uni = odoCounter % 10;
+
+    toSend[0] = mil + '0';
+    toSend[1] = cen + '0';
+    toSend[2] = dec + '0';
+    toSend[3] = uni + '0';
+    toSend[4] = '\r';
+    toSend[5] = '\0';
+
+    putsUSBUSART((char*) toSend);
+}
+/////////////////////////////////////////////////////////////////
 static void InitializeSystem(void)
 {
     ADCON1 |= 0x0F;
