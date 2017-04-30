@@ -1,0 +1,1594 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ABSTRACT_CONTROL_MODEL::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	132;"	d	line:132
+ABSTRACT_STATE::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	146;"	d	line:146
+ADDRESS_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	147;"	e	line:147
+ADR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	372;"	m	line:372	struct:__BDT::<anonymous>
+ADRH	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	366;"	m	line:366	struct:__BDT::<anonymous>
+ADRL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	365;"	m	line:365	struct:__BDT::<anonymous>
+ADR_PENDING_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	143;"	e	line:143
+ATTACHED_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	128;"	e	line:128
+BC8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	330;"	m	line:330	struct:_BD_STAT::<anonymous>
+BC8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	342;"	m	line:342	struct:_BD_STAT::<anonymous>
+BC9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	331;"	m	line:331	struct:_BD_STAT::<anonymous>
+BC9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	343;"	m	line:343	struct:_BD_STAT::<anonymous>
+BD::(ep,dir,pp)(4*(4*ep+2*dir+pp))	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	177;"	d	line:177	file:
+BDT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	208;"	v	line:208
+BDT_ENTRY	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	376;"	t	line:376
+BD_STAT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	356;"	t	line:356
+BIT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	65;"	t	line:65
+BOOL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	64;"	t	line:64
+BSTALL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	332;"	m	line:332	struct:_BD_STAT::<anonymous>
+BYTE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	341;"	t	line:341
+BYTE_BITS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	367;"	t	line:367
+BYTE_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	367;"	t	line:367
+BaudRateGen	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	123;"	v	line:123
+BlinkUSBStatus	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	63;"	p	line:63	file:	signature:(void)
+BothEP0OutUOWNsSet	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	196;"	v	line:196
+CARRIER_CONTROL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	574;"	m	line:574	struct:_CONTROL_SIGNAL_BITMAP::<anonymous>
+CDCDataInHandle	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	119;"	v	line:119
+CDCDataOutHandle	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	118;"	v	line:118
+CDCInitEP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	284;"	f	line:284	signature:(void)
+CDCInitEP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	643;"	p	line:643	signature:(void)
+CDCSetBaudRate::(baudRate){line_coding.dwDTERa	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	252;"	d	line:252
+CDCSetCharacterFormat::(charFormat){line_coding.bChar	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	290;"	d	line:290
+CDCSetDataSize::(dataBits){line_coding.bDataBi	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	373;"	d	line:373
+CDCSetLineCoding::(baud,format,parity,dataSize){	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	424;"	d	line:424
+CDCSetParity::(parityType){line_coding.bPari	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	333;"	d	line:333
+CDCTxService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	697;"	f	line:697	signature:(void)
+CDCTxService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	648;"	p	line:648	signature:(void)
+CDC_COMM_EP::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	121;"	d	line:121
+CDC_COMM_INTF_ID::0x0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	120;"	d	line:120
+CDC_COMM_IN_EP_SIZE::8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	122;"	d	line:122
+CDC_DATA_EP::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	125;"	d	line:125
+CDC_DATA_INTF_ID::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	124;"	d	line:124
+CDC_DATA_IN_EP_SIZE::64	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	127;"	d	line:127
+CDC_DATA_OUT_EP_SIZE::64	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	126;"	d	line:126
+CDC_DEVICE::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	126;"	d	line:126
+CDC_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	96;"	d	line:96
+CDC_NOTICE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	624;"	t	line:624
+CDC_TX_BUSY::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	169;"	d	line:169
+CDC_TX_BUSY_ZLP::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	170;"	d	line:170
+CDC_TX_COMPLETING::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	171;"	d	line:171
+CDC_TX_READY::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	168;"	d	line:168
+CHAR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	347;"	t	line:347
+CHAR8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	338;"	t	line:338
+CLEAR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	65;"	e	line:65	enum:_BIT
+CLEAR_COMM_FEATURE::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	110;"	d	line:110
+CLOCK_FREQ::48000000	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	101;"	d	line:101
+CNT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	364;"	m	line:364	struct:__BDT::<anonymous>
+COMM_INTF::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	129;"	d	line:129
+CONFIGURED_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	154;"	e	line:154
+CONFIGURE_DTR::(a)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	186;"	d	line:186
+CONFIGURE_DTR::(a)UART_DTR=a;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	183;"	d	line:183
+CONFIGURE_RTS::(a)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	185;"	d	line:185
+CONFIGURE_RTS::(a)UART_RTS=a;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	182;"	d	line:182
+CONTROL_SIGNAL_BITMAP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	576;"	t	line:576
+COUNTRY_SETTING::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	147;"	d	line:147
+CS_ENDPOINT::0x25	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	152;"	d	line:152
+CS_INTERFACE::0x24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	151;"	d	line:151
+CTRL_TRF_PARAMS::void	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1129;"	d	line:1129
+CTRL_TRF_RETURN::void	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1128;"	d	line:1128
+CTRL_TRF_RX::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	104;"	d	line:104	file:
+CTRL_TRF_SETUP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	433;"	t	line:433
+CTRL_TRF_TX::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	103;"	d	line:103	file:
+ClrWdt::(WDTCONSET=_WDTCON_WDTCLR_MASK	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	161;"	d	line:161
+ClrWdt::asm("CLRWDT");	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	140;"	d	line:140
+ConvertToPhysicalAddress::(a)a	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	457;"	d	line:457
+CtrlTrfData	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	218;"	v	line:218
+DATA_INTF::0x0A	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	139;"	d	line:139
+DEFAULT_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	136;"	e	line:136
+DEMO_BOARD::PICDEM_FS_USB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	99;"	d	line:99
+DESCRIPTOR_ID	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	243;"	t	line:243
+DESC_CONFIG_BYTE::(a)(a)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1093;"	d	line:1093
+DESC_CONFIG_DWORD::(a)(a&0xFF),((a>>8)&0xFF),((a>	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1086;"	d	line:1086
+DESC_CONFIG_WORD::(a)(a&0xFF),((a>>8)&0xFF)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1079;"	d	line:1079
+DETACHED_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	124;"	e	line:124
+DSC_FN_ACM::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	157;"	d	line:157
+DSC_FN_CALL_MGT::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	156;"	d	line:156
+DSC_FN_COUNTRY_SELECTION::0x07	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	162;"	d	line:162
+DSC_FN_DLM::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	158;"	d	line:158
+DSC_FN_HEADER::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	155;"	d	line:155
+DSC_FN_RPT_CAPABILITIES::0x05	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	160;"	d	line:160
+DSC_FN_TELEPHONE_RINGER::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	159;"	d	line:159
+DSC_FN_TEL_OP_MODES::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	163;"	d	line:163
+DSC_FN_UNION::0x06	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	161;"	d	line:161
+DSC_FN_USB_TERMINAL::0x09	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	164;"	d	line:164
+DTE_PRESENT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	573;"	m	line:573	struct:_CONTROL_SIGNAL_BITMAP::<anonymous>
+DTS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	336;"	m	line:336	struct:_BD_STAT::<anonymous>
+DTSEN	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	333;"	m	line:333	struct:_BD_STAT::<anonymous>
+DWORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	343;"	t	line:343
+DWORD_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	456;"	t	line:456
+DataDir	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	341;"	m	line:341
+DisableNonZeroEndpoints::(last_ep_num)memset((void*)&U1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	228;"	d	line:228
+ENDPOINT_MASK::0b01111000	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	252;"	d	line:252
+EP0_IN_EVEN::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	112;"	d	line:112	file:
+EP0_IN_ODD::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	113;"	d	line:113	file:
+EP0_OUT_EVEN::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	110;"	d	line:110	file:
+EP0_OUT_ODD::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	111;"	d	line:111	file:
+EP10_IN_EVEN::42	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	152;"	d	line:152	file:
+EP10_IN_ODD::43	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	153;"	d	line:153	file:
+EP10_OUT_EVEN::40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	150;"	d	line:150	file:
+EP10_OUT_ODD::41	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	151;"	d	line:151	file:
+EP11_IN_EVEN::46	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	156;"	d	line:156	file:
+EP11_IN_ODD::47	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	157;"	d	line:157	file:
+EP11_OUT_EVEN::44	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	154;"	d	line:154	file:
+EP11_OUT_ODD::45	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	155;"	d	line:155	file:
+EP12_IN_EVEN::50	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	160;"	d	line:160	file:
+EP12_IN_ODD::51	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	161;"	d	line:161	file:
+EP12_OUT_EVEN::48	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	158;"	d	line:158	file:
+EP12_OUT_ODD::49	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	159;"	d	line:159	file:
+EP13_IN_EVEN::54	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	164;"	d	line:164	file:
+EP13_IN_ODD::55	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	165;"	d	line:165	file:
+EP13_OUT_EVEN::52	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	162;"	d	line:162	file:
+EP13_OUT_ODD::53	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	163;"	d	line:163	file:
+EP14_IN_EVEN::58	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	168;"	d	line:168	file:
+EP14_IN_ODD::59	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	169;"	d	line:169	file:
+EP14_OUT_EVEN::56	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	166;"	d	line:166	file:
+EP14_OUT_ODD::57	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	167;"	d	line:167	file:
+EP15_IN_EVEN::62	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	172;"	d	line:172	file:
+EP15_IN_ODD::63	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	173;"	d	line:173	file:
+EP15_OUT_EVEN::60	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	170;"	d	line:170	file:
+EP15_OUT_ODD::61	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	171;"	d	line:171	file:
+EP1_IN_EVEN::6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	116;"	d	line:116	file:
+EP1_IN_ODD::7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	117;"	d	line:117	file:
+EP1_OUT_EVEN::4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	114;"	d	line:114	file:
+EP1_OUT_ODD::5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	115;"	d	line:115	file:
+EP2_IN_EVEN::10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	120;"	d	line:120	file:
+EP2_IN_ODD::11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	121;"	d	line:121	file:
+EP2_OUT_EVEN::8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	118;"	d	line:118	file:
+EP2_OUT_ODD::9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	119;"	d	line:119	file:
+EP3_IN_EVEN::14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	124;"	d	line:124	file:
+EP3_IN_ODD::15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	125;"	d	line:125	file:
+EP3_OUT_EVEN::12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	122;"	d	line:122	file:
+EP3_OUT_ODD::13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	123;"	d	line:123	file:
+EP4_IN_EVEN::18	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	128;"	d	line:128	file:
+EP4_IN_ODD::19	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	129;"	d	line:129	file:
+EP4_OUT_EVEN::16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	126;"	d	line:126	file:
+EP4_OUT_ODD::17	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	127;"	d	line:127	file:
+EP5_IN_EVEN::22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	132;"	d	line:132	file:
+EP5_IN_ODD::23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	133;"	d	line:133	file:
+EP5_OUT_EVEN::20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	130;"	d	line:130	file:
+EP5_OUT_ODD::21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	131;"	d	line:131	file:
+EP6_IN_EVEN::26	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	136;"	d	line:136	file:
+EP6_IN_ODD::27	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	137;"	d	line:137	file:
+EP6_OUT_EVEN::24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	134;"	d	line:134	file:
+EP6_OUT_ODD::25	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	135;"	d	line:135	file:
+EP7_IN_EVEN::30	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	140;"	d	line:140	file:
+EP7_IN_ODD::31	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	141;"	d	line:141	file:
+EP7_OUT_EVEN::28	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	138;"	d	line:138	file:
+EP7_OUT_ODD::29	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	139;"	d	line:139	file:
+EP8_IN_EVEN::34	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	144;"	d	line:144	file:
+EP8_IN_ODD::35	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	145;"	d	line:145	file:
+EP8_OUT_EVEN::32	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	142;"	d	line:142	file:
+EP8_OUT_ODD::33	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	143;"	d	line:143	file:
+EP9_IN_EVEN::38	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	148;"	d	line:148	file:
+EP9_IN_ODD::39	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	149;"	d	line:149	file:
+EP9_OUT_EVEN::36	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	146;"	d	line:146	file:
+EP9_OUT_ODD::37	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	147;"	d	line:147	file:
+EP::(ep,dir,pp)(4*ep+2*dir+pp)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	175;"	d	line:175	file:
+EPDir	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	425;"	m	line:425
+EPNum	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	423;"	m	line:423
+EP_ATTR_ADAPT::(2<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	216;"	d	line:216
+EP_ATTR_ASYNC::(1<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	215;"	d	line:215
+EP_ATTR_BULK::(2<<0)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	210;"	d	line:210
+EP_ATTR_CONTROL::(0<<0)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	208;"	d	line:208
+EP_ATTR_DATA::(0<<4)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	220;"	d	line:220
+EP_ATTR_FEEDBACK::(1<<4)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	221;"	d	line:221
+EP_ATTR_IMP_FB::(2<<4)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	222;"	d	line:222
+EP_ATTR_INTR::(3<<0)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	211;"	d	line:211
+EP_ATTR_ISOCH::(1<<0)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	209;"	d	line:209
+EP_ATTR_NO_SYNC::(0<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	214;"	d	line:214
+EP_ATTR_SYNC::(3<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	217;"	d	line:217
+EP_CTRL::0x06	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	469;"	d	line:469
+EP_DIR_IN::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	199;"	d	line:199
+EP_DIR_OUT::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	200;"	d	line:200
+EP_IN::0x0A	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	471;"	d	line:471
+EP_LG_PKT_BULK_FS::32	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	229;"	d	line:229
+EP_MAX_PKT_BULK_FS::64	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	228;"	d	line:228
+EP_MAX_PKT_INTR_FS::64	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	226;"	d	line:226
+EP_MAX_PKT_INTR_LS::8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	225;"	d	line:225
+EP_MAX_PKT_ISOCH_FS::1023	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	227;"	d	line:227
+EP_MED_PKT_BULK_FS::16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	230;"	d	line:230
+EP_OUT::0x0C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	470;"	d	line:470
+EP_OUT_IN::0x0E	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	472;"	d	line:472
+EP_SM_PKT_BULK_FS::8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	231;"	d	line:231
+EVENT_ATTACH	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	202;"	e	line:202
+EVENT_AUDIO_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	344;"	e	line:344
+EVENT_BUS_ERROR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	351;"	e	line:351
+EVENT_CANNOT_ENUMERATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	292;"	e	line:292
+EVENT_CDC_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	340;"	e	line:340
+EVENT_CHARGER_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	342;"	e	line:342
+EVENT_CLIENT_INIT_ERROR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	296;"	e	line:296
+EVENT_CONFIGURED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	163;"	e	line:163
+EVENT_DETACH	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	309;"	e	line:309
+EVENT_DEVICE_STACK_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	248;"	e	line:248
+EVENT_EP0_REQUEST	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	173;"	e	line:173
+EVENT_GENERIC_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	332;"	e	line:332
+EVENT_HID_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	336;"	e	line:336
+EVENT_HOST_STACK_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	250;"	e	line:250
+EVENT_HUB_ATTACH	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	253;"	e	line:253
+EVENT_MSD_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	334;"	e	line:334
+EVENT_NONE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	246;"	e	line:246
+EVENT_OUT_OF_MEMORY	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	302;"	e	line:302
+EVENT_PRINTER_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	338;"	e	line:338
+EVENT_RESET	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	329;"	e	line:329
+EVENT_RESUME	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	321;"	e	line:321
+EVENT_SET_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	167;"	e	line:167
+EVENT_SOF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	318;"	e	line:318
+EVENT_STALL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	256;"	e	line:256
+EVENT_SUSPEND	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	325;"	e	line:325
+EVENT_TRANSFER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	314;"	e	line:314
+EVENT_UNSPECIFIED_ERROR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	305;"	e	line:305
+EVENT_UNSUPPORTED_DEVICE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	288;"	e	line:288
+EVENT_USER_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	346;"	e	line:346
+EVENT_VBUS_OVERCURRENT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	264;"	e	line:264
+EVENT_VBUS_POWER_AVAILABLE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	284;"	e	line:284
+EVENT_VBUS_RELEASE_POWER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	275;"	e	line:275
+EVENT_VBUS_REQUEST_POWER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	270;"	e	line:270
+EVENT_VBUS_SES_REQUEST	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	259;"	e	line:259
+FALSE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	64;"	e	line:64	enum:_BOOL
+FAR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	159;"	d	line:159
+FAR::__attribute__((far))	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	152;"	d	line:152
+FAR::far	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	127;"	d	line:127
+GET_COMM_FEATURE::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	109;"	d	line:109
+GET_ENCAPSULATED_RESPONSE::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	107;"	d	line:107
+GET_LINE_CODING::0x21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	112;"	d	line:112
+GetLineCoding	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	621;"	m	line:621	union:_CDC_NOTICE
+HARDWARE_PROFILE_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile.h	52;"	d	line:52
+HARDWARE_PROFILE_PICDEM_FSUSB_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	42;"	d	line:42
+HB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	119;"	m	line:119	struct:<anonymous>::__PACKED
+HB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	151;"	m	line:151	struct:<anonymous>::__PACKED
+HB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	197;"	m	line:197	struct:<anonymous>::__PACKED
+HB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	376;"	m	line:376	struct:<anonymous>::__PACKED
+HB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	412;"	m	line:412	struct:<anonymous>::__PACKED
+HD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	254;"	m	line:254	struct:<anonymous>::__PACKED
+HD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	468;"	m	line:468	struct:<anonymous>::__PACKED
+HW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	192;"	m	line:192	struct:<anonymous>::__PACKED
+HW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	259;"	m	line:259	struct:<anonymous>::__PACKED
+HW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	407;"	m	line:407	struct:<anonymous>::__PACKED
+HW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	473;"	m	line:473	struct:<anonymous>::__PACKED
+High_ISR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	91;"	f	line:91	signature:(void)
+INCDIS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	334;"	m	line:334	struct:_BD_STAT::<anonymous>
+INPUT_PIN::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	150;"	d	line:150
+INT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	72;"	t	line:72
+INT16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	74;"	t	line:74
+INT32	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	75;"	t	line:75
+INT64	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	79;"	t	line:79
+INT8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	73;"	t	line:73
+IN_PIPE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1161;"	t	line:1161
+IN_TO_HOST::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	613;"	d	line:613
+InitializeSystem	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	129;"	f	line:129	file:	signature:(void)
+InitializeSystem	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	58;"	p	line:58	file:	signature:(void)
+KEN	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	335;"	m	line:335	struct:_BD_STAT::<anonymous>
+LB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	118;"	m	line:118	struct:<anonymous>::__PACKED
+LB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	150;"	m	line:150	struct:<anonymous>::__PACKED
+LB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	196;"	m	line:196	struct:<anonymous>::__PACKED
+LB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	375;"	m	line:375	struct:<anonymous>::__PACKED
+LB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	411;"	m	line:411	struct:<anonymous>::__PACKED
+LD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	253;"	m	line:253	struct:<anonymous>::__PACKED
+LD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	467;"	m	line:467	struct:<anonymous>::__PACKED
+LINE_CODING	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	566;"	t	line:566
+LINE_CODING_LENGTH::0x07	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	551;"	d	line:551
+LINE_CODING_PFUNC::&USB_CDC_SET_LINE_CODING_HANDL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	175;"	d	line:175
+LINE_CODING_PFUNC::NULL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	178;"	d	line:178
+LINE_CODING_TARGET::&cdc_notice.SetLineCoding._byt	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	174;"	d	line:174
+LINE_CODING_TARGET::&line_coding._byte[0]	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	177;"	d	line:177
+LONG	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	349;"	t	line:349
+LONGLONG	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	352;"	t	line:352
+LW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	191;"	m	line:191	struct:<anonymous>::__PACKED
+LW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	258;"	m	line:258	struct:<anonymous>::__PACKED
+LW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	406;"	m	line:406	struct:<anonymous>::__PACKED
+LW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	472;"	m	line:472	struct:<anonymous>::__PACKED
+Low_ISR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	97;"	f	line:97	signature:(void)
+MB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	199;"	m	line:199	struct:<anonymous>::__PACKED
+MB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	414;"	m	line:414	struct:<anonymous>::__PACKED
+MW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	261;"	m	line:261	struct:<anonymous>::__PACKED
+MW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	475;"	m	line:475	struct:<anonymous>::__PACKED
+NETWORK_CONNECTION::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	120;"	d	line:120
+NO_PROTOCOL::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	142;"	d	line:142
+NUM_STOP_BITS_1::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	291;"	d	line:291
+NUM_STOP_BITS_1_5::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	292;"	d	line:292
+NUM_STOP_BITS_2::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	293;"	d	line:293
+Nop::asm("NOP");	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	139;"	d	line:139
+Nop::asm("nop")	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	166;"	d	line:166
+OTG_FEATURE_A_ALT_HNP_SUPPORT::5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	526;"	d	line:526
+OTG_FEATURE_A_HNP_SUPPORT::4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	525;"	d	line:525
+OTG_FEATURE_B_HNP_ENABLE::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	524;"	d	line:524
+OTG_HNP_SUPPORT::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	474;"	d	line:474
+OTG_SRP_SUPPORT::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	475;"	d	line:475
+OUTPUT_PIN::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	151;"	d	line:151
+OUT_FROM_HOST::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	612;"	d	line:612
+OUT_PIPE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1186;"	t	line:1186
+PARITY_EVEN::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	336;"	d	line:336
+PARITY_MARK::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	337;"	d	line:337
+PARITY_NONE::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	334;"	d	line:334
+PARITY_ODD::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	335;"	d	line:335
+PARITY_SPACE::4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	338;"	d	line:338
+PCDC_NOTICE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	624;"	t	line:624
+PICDEM_FS_USB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	100;"	d	line:100
+PID	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	353;"	m	line:353	struct:_BD_STAT::<anonymous>
+PID0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	344;"	m	line:344	struct:_BD_STAT::<anonymous>
+PID1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	345;"	m	line:345	struct:_BD_STAT::<anonymous>
+PID2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	346;"	m	line:346	struct:_BD_STAT::<anonymous>
+PID3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	347;"	m	line:347	struct:_BD_STAT::<anonymous>
+PID_ACK::0x2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	445;"	d	line:445
+PID_DATA0::0x3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	446;"	d	line:446
+PID_DATA1::0xB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	454;"	d	line:454
+PID_DATA2::0x7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	450;"	d	line:450
+PID_ERR::0xC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	456;"	d	line:456
+PID_IN::0x9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	452;"	d	line:452
+PID_MASK_DATA::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	461;"	d	line:461
+PID_MASK_DATA_SHIFTED::(PID_MASK_DATA<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	462;"	d	line:462
+PID_MDATA::0xF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	459;"	d	line:459
+PID_NAK::0xA	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	453;"	d	line:453
+PID_NYET::0x6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	449;"	d	line:449
+PID_OUT::0x1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	444;"	d	line:444
+PID_PING::0x4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	447;"	d	line:447
+PID_PRE::0xC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	455;"	d	line:455
+PID_SETUP::0xD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	457;"	d	line:457
+PID_SOF::0x5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	448;"	d	line:448
+PID_SPLIT::0x8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	451;"	d	line:451
+PID_STALL::0xE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	458;"	d	line:458
+POINTER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	437;"	t	line:437
+POWERED_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	132;"	e	line:132
+PRIVATE::static	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	69;"	d	line:69
+PROGRAMMABLE_WITH_USB_HID_BOOTLOADER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	82;"	d	line:82
+PROTECTED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	68;"	d	line:68
+PSETUP_PKT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	433;"	t	line:433
+PTR_BASE::DWORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	93;"	d	line:93
+PTR_BASE::WORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	96;"	d	line:96
+PTR_BASE::WORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	99;"	d	line:99
+PUBLIC::	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	67;"	d	line:67
+ProcessIO	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	143;"	f	line:143	signature:(void)
+ProcessIO	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	59;"	p	line:59	file:	signature:(void)
+QWORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	346;"	t	line:346
+QWORD_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	544;"	t	line:544
+REMAPPED_HIGH_INTERRUPT_VECTOR_ADDRESS::0x1008	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	67;"	d	line:67	file:
+REMAPPED_LOW_INTERRUPT_VECTOR_ADDRESS::0x1018	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	68;"	d	line:68	file:
+REMAPPED_RESET_VECTOR_ADDRESS::0x1000	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	66;"	d	line:66	file:
+RESPONSE_AVAILABLE::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	121;"	d	line:121
+ROM::const	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	137;"	d	line:137
+ROM::const	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	147;"	d	line:147
+ROM::rom	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	131;"	d	line:131
+ROM_PTR_BASE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	102;"	d	line:102
+ROM_PTR_BASE::DWORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	103;"	d	line:103
+ROM_PTR_BASE::DWORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	94;"	d	line:94
+ROM_PTR_BASE::WORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	97;"	d	line:97
+ROM_PTR_BASE::unsignedshortlong	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	100;"	d	line:100
+Recipient	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	339;"	m	line:339
+Remapped_High_ISR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	79;"	f	line:79	signature:(void)
+Remapped_Low_ISR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	85;"	f	line:85	signature:(void)
+RemoteWakeup	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	194;"	v	line:194
+RequestType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	340;"	m	line:340
+Reset::SoftReset	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	160;"	d	line:160
+Reset::asm("RESET");	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	141;"	d	line:141
+Reset::asm("reset")	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	151;"	d	line:151
+SEND_BREAK::0x23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	114;"	d	line:114
+SEND_ENCAPSULATED_COMMAND::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	106;"	d	line:106
+SERIAL_STATE::0x20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	122;"	d	line:122
+SET	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	65;"	e	line:65	enum:_BIT
+SETUP_PKT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	433;"	t	line:433
+SET_COMM_FEATURE::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	108;"	d	line:108
+SET_CONTROL_LINE_STATE::0x22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	113;"	d	line:113
+SET_LINE_CODING::0x20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	111;"	d	line:111
+SHORT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	348;"	t	line:348
+SHORT_PKT_NOT_USED::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	97;"	d	line:97	file:
+SHORT_PKT_PENDING::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	98;"	d	line:98	file:
+SHORT_PKT_SENT::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	99;"	d	line:99	file:
+STAT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	363;"	m	line:363	struct:__BDT::<anonymous>
+SetConfigurationOptions::{	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	493;"	d	line:493
+SetLineCoding	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	622;"	m	line:622	union:_CDC_NOTICE
+SetupPkt	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	217;"	v	line:217
+TRANSFER_FLAGS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	181;"	t	line:181
+TRUE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	64;"	e	line:64	enum:_BOOL
+U1ADDR::UADDR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	298;"	d	line:298
+U1CNFG1::UCFG	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	307;"	d	line:307
+U1CON::UCON	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	303;"	d	line:303
+U1CONbits::UCONbits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	305;"	d	line:305
+U1EIE::UEIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	302;"	d	line:302
+U1EIR::UEIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	301;"	d	line:301
+U1EP0::UEP0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	304;"	d	line:304
+U1EP0bits::UEP0bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	309;"	d	line:309
+U1EP1::UEP1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	306;"	d	line:306
+U1IE::UIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	299;"	d	line:299
+U1IR::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	300;"	d	line:300
+U1STAT::USTAT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	308;"	d	line:308
+UB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	152;"	m	line:152	struct:<anonymous>::__PACKED
+UB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	198;"	m	line:198	struct:<anonymous>::__PACKED
+UB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	413;"	m	line:413	struct:<anonymous>::__PACKED
+UCHAR8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	339;"	t	line:339
+UEP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	407;"	m	line:407
+UEP_STALL::0x0001	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	410;"	d	line:410
+UINT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	83;"	t	line:83
+UINT16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	85;"	t	line:85
+UINT16_BITS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	140;"	t	line:140
+UINT16_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	140;"	t	line:140
+UINT24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	88;"	t	line:88
+UINT24_BITS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	181;"	t	line:181
+UINT24_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	181;"	t	line:181
+UINT32	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	90;"	t	line:90
+UINT32_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	241;"	t	line:241
+UINT64	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	93;"	t	line:93
+UINT64_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	330;"	t	line:330
+UINT8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	84;"	t	line:84
+UINT8_BITS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	110;"	t	line:110
+UINT8_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	110;"	t	line:110
+UOWN	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	337;"	m	line:337	struct:_BD_STAT::<anonymous>
+UOWN	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	349;"	m	line:349	struct:_BD_STAT::<anonymous>
+USBActiveConfiguration	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	183;"	v	line:183
+USBActivityIE::UIEbits.ACTVIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	273;"	d	line:273
+USBActivityIF::UIRbits.ACTVIF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	274;"	d	line:274
+USBActivityIFBitNum::0xFB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	276;"	d	line:276
+USBActivityIFReg::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	275;"	d	line:275
+USBAlternateInterface	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	184;"	v	line:184
+USBCBCheckOtherReq	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	279;"	f	line:279	signature:(void)
+USBCBErrorHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	274;"	f	line:274	signature:(void)
+USBCBInitEP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	289;"	f	line:289	signature:(void)
+USBCBSendResume	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	294;"	f	line:294	signature:(void)
+USBCBStdSetDscHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	284;"	f	line:284	signature:(void)
+USBCBSuspend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	227;"	f	line:227	signature:(void)
+USBCBWakeFromSuspend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	232;"	f	line:232	signature:(void)
+USBCB_SOF_Handler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	244;"	f	line:244	signature:(void)
+USBCDCSetLineCoding	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	141;"	p	line:141	file:	signature:(void)
+USBCFG_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	50;"	d	line:50
+USBCancelIO	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2196;"	f	line:2196	signature:(BYTE endpoint)
+USBCancelIO	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1062;"	p	line:1062	signature:(BYTE endpoint)
+USBCheckCDCRequest	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	168;"	f	line:168	signature:(void)
+USBCheckCDCRequest	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	642;"	p	line:642	signature:(void)
+USBCheckStdRequest	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1201;"	f	line:1201	signature:(void)
+USBCheckStdRequest	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	267;"	p	line:267	file:	signature:(void)
+USBClearInterruptFlag::(reg_name,if_and_flag_mask)(re	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	183;"	d	line:183
+USBClearInterruptRegister::(reg)reg=0;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	205;"	d	line:205
+USBClearUSBInterrupt::PIR2bits.USBIF=0;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	458;"	d	line:458
+USBConfigureEndpoint	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1939;"	f	line:1939	signature:(BYTE EPNum, BYTE direction)
+USBConfigureEndpoint	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	280;"	p	line:280	file:	signature:(BYTE EPNum, BYTE direction)
+USBCtrlEPService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	264;"	p	line:264	file:	signature:(void)
+USBCtrlEPService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	892;"	f	line:892	signature:(void)
+USBCtrlEPServiceComplete	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1552;"	f	line:1552	signature:(void)
+USBCtrlEPServiceComplete	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	269;"	p	line:269	file:	signature:(void)
+USBCtrlTrfInHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1083;"	f	line:1083	signature:(void)
+USBCtrlTrfInHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	266;"	p	line:266	file:	signature:(void)
+USBCtrlTrfOutHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1033;"	f	line:1033	signature:(void)
+USBCtrlTrfOutHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	276;"	p	line:276	file:	signature:(void)
+USBCtrlTrfRxService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1794;"	f	line:1794	signature:(void)
+USBCtrlTrfRxService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	272;"	p	line:272	file:	signature:(void)
+USBCtrlTrfSetupHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	265;"	p	line:265	file:	signature:(void)
+USBCtrlTrfSetupHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	986;"	f	line:986	signature:(void)
+USBCtrlTrfTxService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1699;"	f	line:1699	signature:(void)
+USBCtrlTrfTxService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	270;"	p	line:270	file:	signature:(void)
+USBDEVICE_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	93;"	d	line:93
+USBDeviceAttach	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2328;"	f	line:2328	signature:(void)
+USBDeviceAttach	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	976;"	p	line:976	signature:(void)
+USBDeviceCBGetDescriptor	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1037;"	p	line:1037	signature:(UINT16 *length, DESCRIPTOR_ID *id)
+USBDeviceDetach	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2237;"	f	line:2237	signature:(void)
+USBDeviceDetach	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	944;"	p	line:944	signature:(void)
+USBDeviceInit	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	313;"	f	line:313	signature:(void)
+USBDeviceInit	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	289;"	p	line:289	signature:(void)
+USBDeviceState	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	182;"	v	line:182
+USBDeviceTasks	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	60;"	p	line:60	file:	signature:(void)
+USBDeviceTasks	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	410;"	f	line:410	signature:(void)
+USBDeviceTasks	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	264;"	p	line:264	signature:(void)
+USBEP0Receive	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	835;"	p	line:835	signature:(BYTE* dest, WORD size, void (*function))
+USBEP0Receive::(dest,size,function){outPipes[	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	837;"	d	line:837
+USBEP0SendRAMPtr	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	775;"	p	line:775	signature:(BYTE* src, WORD size, BYTE Options)
+USBEP0SendRAMPtr::(src,size,options){	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	781;"	d	line:781
+USBEP0SendROMPtr	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	807;"	p	line:807	signature:(BYTE* src, WORD size, BYTE Options)
+USBEP0SendROMPtr::(src,size,options){	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	813;"	d	line:813
+USBEP0Transmit	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	747;"	p	line:747	signature:(BYTE options)
+USBEP0Transmit::(options)inPipes[0].info.Val=o	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	749;"	d	line:749
+USBEPService	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	279;"	p	line:279	file:	signature:(void)
+USBEnableEndpoint	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2027;"	f	line:2027	signature:(BYTE ep, BYTE options)
+USBEnableEndpoint	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	287;"	p	line:287	file:	signature:(BYTE ep,BYTE options)
+USBEnableEndpoint	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	512;"	p	line:512	signature:(BYTE ep, BYTE options)
+USBEnableInterrupts::{RCONbits.IPEN=1;IPR2bits.USBI	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	243;"	d	line:243
+USBErrorIE::UIEbits.UERRIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	288;"	d	line:288
+USBErrorIF::UIRbits.UERRIF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	289;"	d	line:289
+USBErrorIFBitNum::0xFD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	291;"	d	line:291
+USBErrorIFReg::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	290;"	d	line:290
+USBGetDeviceState	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	411;"	p	line:411	signature:(void)
+USBGetDeviceState::USBDeviceState	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	413;"	d	line:413
+USBGetRemoteWakeupStatus	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	354;"	p	line:354	signature:(void)
+USBGetRemoteWakeupStatus::RemoteWakeup	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	356;"	d	line:356
+USBGetSuspendState	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	461;"	p	line:461	signature:(void)
+USBHALControlBusPower	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	246;"	p	line:246	signature:( BYTE cmd )
+USBHALControlUsbResistors	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	173;"	p	line:173	signature:( BYTE flags )
+USBHALControlUsbResistors	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	176;"	p	line:176	signature:( BYTE flags )
+USBHALControlUsbResistors::OTGCORE_ControlUsbResistors	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	175;"	d	line:175
+USBHALFlushPipe	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	482;"	p	line:482	signature:( TRANSFER_FLAGS pipe )
+USBHALGetLastError	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	287;"	p	line:287	signature:( void )
+USBHALGetStalledEndpoints	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	445;"	p	line:445	signature:( void )
+USBHALGetStalledEndpoints::OTGCORE_GetStalledEndpoints	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	443;"	d	line:443
+USBHALHandleBusEvent	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	333;"	p	line:333	signature:( void )
+USBHALInitialize	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	632;"	p	line:632	signature:( unsigned long flags )
+USBHALSessionIsValid	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	220;"	p	line:220	signature:( void )
+USBHALSetBusAddress	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	137;"	p	line:137	signature:( BYTE addr )
+USBHALSetBusAddress::OTGCORE_SetDeviceAddr	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	135;"	d	line:135
+USBHALSetEpConfiguration	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	582;"	p	line:582	signature:( BYTE ep_num, UINT16 max_pkt_size, UINT16 flags )
+USBHALStallPipe	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	374;"	p	line:374	signature:( TRANSFER_FLAGS pipe )
+USBHALStallPipe::OTGCORE_StallPipe	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	372;"	d	line:372
+USBHALTransferData	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	542;"	p	line:542	signature:( TRANSFER_FLAGS flags, void *buffer, unsigned int size )
+USBHALUnstallPipe	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	411;"	p	line:411	signature:( TRANSFER_FLAGS pipe )
+USBHALUnstallPipe::OTGCORE_UnstallPipe	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	409;"	d	line:409
+USBHAL_BTO_ERR::0x00000010	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	297;"	d	line:297
+USBHAL_BTS_ERR::0x00000080	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	299;"	d	line:299
+USBHAL_CRC16::0x00000004	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	295;"	d	line:295
+USBHAL_CRC5::0x00000002	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	293;"	d	line:293
+USBHAL_DFN8::0x00000008	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	296;"	d	line:296
+USBHAL_DMA_ERR2::0x00000400	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	302;"	d	line:302
+USBHAL_DMA_ERR::0x00000020	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	298;"	d	line:298
+USBHAL_HOST_EOF::0x00000002	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	294;"	d	line:294
+USBHAL_NO_EP::0x00000200	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	301;"	d	line:301
+USBHAL_PID_ERR::0x00000001	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	292;"	d	line:292
+USBHAL_XFER_ID::0x00000100	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	300;"	d	line:300
+USBHandleBusy	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	648;"	p	line:648	signature:(USB_HANDLE handle)
+USBHandleBusy::(handle)(handle==0?0:((volatil	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	650;"	d	line:650
+USBHandleGetAddr	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	714;"	p	line:714	signature:(USB_HANDLE)
+USBHandleGetAddr::(handle)(((volatileBDT_ENTRY*)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	716;"	d	line:716
+USBHandleGetLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	682;"	p	line:682	signature:(USB_HANDLE handle)
+USBHandleGetLength::(handle)(((volatileBDT_ENTRY*)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	684;"	d	line:684
+USBIdleIE::UIEbits.IDLEIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	268;"	d	line:268
+USBIdleIF::UIRbits.IDLEIF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	269;"	d	line:269
+USBIdleIFBitNum::0xEF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	271;"	d	line:271
+USBIdleIFReg::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	270;"	d	line:270
+USBInData	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	198;"	v	line:198
+USBInMaxPacketSize	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	197;"	v	line:197
+USBInitialize::(f)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	484;"	d	line:484
+USBInitialize::(f)USBDeviceInit	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	487;"	d	line:487
+USBInitialize::(f)USBHostInit(f)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	491;"	d	line:491
+USBIsDeviceSuspended	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	544;"	p	line:544	signature:(void)
+USBIsDeviceSuspended::USBSuspendControl	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	546;"	d	line:546
+USBIsTxBusy	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	277;"	p	line:277	file:	signature:(BYTE EPNumber)
+USBMaskInterrupts::	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	248;"	d	line:248
+USBMaskInterrupts::{PIE2bits.USBIE=0;}	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	245;"	d	line:245
+USBModuleDisable::{	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	143;"	d	line:143
+USBPacketDisable::UCONbits.PKTDIS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	295;"	d	line:295
+USBPingPongBufferReset::UCONbits.PPBRST	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	255;"	d	line:255
+USBPowerModule::	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	120;"	d	line:120
+USBPrepareForNextSetupTrf	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1155;"	f	line:1155	signature:(void)
+USBPrepareForNextSetupTrf	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	271;"	p	line:271	file:	signature:(void)
+USBProtocolResetHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	282;"	p	line:282	file:	signature:(void)
+USBPut	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	278;"	p	line:278	file:	signature:(BYTE EPNum, BYTE Data)
+USBResetIE::UIEbits.URSTIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	263;"	d	line:263
+USBResetIF::UIRbits.URSTIF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	264;"	d	line:264
+USBResetIFBitNum::0xFE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	266;"	d	line:266
+USBResetIFReg::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	265;"	d	line:265
+USBResumeControl::UCONbits.RESUME	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	296;"	d	line:296
+USBRxOnePacket	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	890;"	p	line:890	signature:(BYTE ep, BYTE* data, WORD len)
+USBRxOnePacket::(ep,data,len)USBTransferOnePac	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	892;"	d	line:892
+USBSE0Event::UCONbits.SE0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	293;"	d	line:293
+USBSOFIE::UIEbits.SOFIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	278;"	d	line:278
+USBSOFIF::UIRbits.SOFIF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	279;"	d	line:279
+USBSOFIFBitNum::0xBF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	281;"	d	line:281
+USBSOFIFReg::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	280;"	d	line:280
+USBSetBDTAddress::(addr)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	162;"	d	line:162
+USBSoftDetach	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	570;"	p	line:570	signature:(void)
+USBSoftDetach::U1CON=0;U1IE=0;USBDeviceState=	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	572;"	d	line:572
+USBStallEndpoint	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2069;"	f	line:2069	signature:(BYTE ep, BYTE dir)
+USBStallEndpoint	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	916;"	p	line:916	signature:(BYTE ep, BYTE dir)
+USBStallHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	285;"	p	line:285	file:	signature:(void)
+USBStallHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	727;"	f	line:727	signature:(void)
+USBStallIE::UIEbits.STALLIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	283;"	d	line:283
+USBStallIF::UIRbits.STALLIF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	284;"	d	line:284
+USBStallIFBitNum::0xDF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	286;"	d	line:286
+USBStallIFReg::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	285;"	d	line:285
+USBStdFeatureReqHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1266;"	f	line:1266	signature:(void)
+USBStdFeatureReqHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	275;"	p	line:275	file:	signature:(void)
+USBStdGetDscHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1405;"	f	line:1405	signature:(void)
+USBStdGetDscHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	268;"	p	line:268	file:	signature:(void)
+USBStdGetStatusHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1467;"	f	line:1467	signature:(void)
+USBStdGetStatusHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	274;"	p	line:274	file:	signature:(void)
+USBStdSetCfgHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1872;"	f	line:1872	signature:(void)
+USBStdSetCfgHandler	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	273;"	p	line:273	file:	signature:(void)
+USBSuspend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	284;"	p	line:284	file:	signature:(void)
+USBSuspend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	770;"	f	line:770	signature:(void)
+USBSuspendControl::UCONbits.SUSPND	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	294;"	d	line:294
+USBTasks::USBDeviceTasks	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	534;"	d	line:534
+USBTasks::USBHostTasks	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	538;"	d	line:538
+USBTasks::{USBHostTasks;USBHALHandleBusE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	531;"	d	line:531
+USBTransactionCompleteIE::UIEbits.TRNIE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	258;"	d	line:258
+USBTransactionCompleteIF::UIRbits.TRNIF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	259;"	d	line:259
+USBTransactionCompleteIFBitNum::0xF7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	261;"	d	line:261
+USBTransactionCompleteIFReg::UIR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	260;"	d	line:260
+USBTransferOnePacket	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2127;"	f	line:2127	signature:(BYTE ep,BYTE dir,BYTE* data,BYTE len)
+USBTransferOnePacket	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	286;"	p	line:286	file:	signature:(BYTE ep, BYTE dir, BYTE* data, BYTE len)
+USBTransferOnePacket	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	614;"	p	line:614	signature:(BYTE ep,BYTE dir,BYTE* data,BYTE len)
+USBTxOnePacket	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	863;"	p	line:863	signature:(BYTE ep, BYTE* data, WORD len)
+USBTxOnePacket::(ep,data,len)USBTransferOnePac	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	865;"	d	line:865
+USBUSARTIsTxTrfReady::(cdc_trf_state==CDC_TX_READY)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	459;"	d	line:459
+USBUnmaskInterrupts::	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	249;"	d	line:249
+USBUnmaskInterrupts::{PIE2bits.USBIE=1;}	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	246;"	d	line:246
+USBWakeFromSuspend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	283;"	p	line:283	file:	signature:(void)
+USBWakeFromSuspend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	827;"	f	line:827	signature:(void)
+USB_ALLOW_SETUP::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	484;"	d	line:484
+USB_APPLICATION_EVENT_HANDLER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1005;"	p	line:1005	signature:(BYTE address, USB_EVENT event, void *pdata, WORD size)
+USB_BDT_ADDRESS::0x400	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	412;"	d	line:412
+USB_BUSY::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	97;"	d	line:97
+USB_BUS_SENSE::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	72;"	d	line:72
+USB_BUS_SENSE::PORTAbits.RA1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	70;"	d	line:70
+USB_CANNOT_ENUMERATE::0x07	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	102;"	d	line:102
+USB_CDC_ACM_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	597;"	t	line:597
+USB_CDC_ACM_FN_DSC_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	217;"	d	line:217
+USB_CDC_CALL_MGT_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	617;"	t	line:617
+USB_CDC_HEADER_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	588;"	t	line:588
+USB_CDC_SET_LINE_CODING_HANDLER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	137;"	p	line:137	file:
+USB_CDC_SUPPORT_ABSTRACT_CONTROL_MANAGEMENT_CAPABILITIES_D0_VAL::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	210;"	d	line:210
+USB_CDC_SUPPORT_ABSTRACT_CONTROL_MANAGEMENT_CAPABILITIES_D1::	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	130;"	d	line:130
+USB_CDC_SUPPORT_ABSTRACT_CONTROL_MANAGEMENT_CAPABILITIES_D1_VAL::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	204;"	d	line:204
+USB_CDC_SUPPORT_ABSTRACT_CONTROL_MANAGEMENT_CAPABILITIES_D1_VAL::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	202;"	d	line:202
+USB_CDC_SUPPORT_ABSTRACT_CONTROL_MANAGEMENT_CAPABILITIES_D2_VAL::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	198;"	d	line:198
+USB_CDC_SUPPORT_ABSTRACT_CONTROL_MANAGEMENT_CAPABILITIES_D2_VAL::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	196;"	d	line:196
+USB_CDC_SUPPORT_ABSTRACT_CONTROL_MANAGEMENT_CAPABILITIES_D3_VAL::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	192;"	d	line:192
+USB_CDC_UNION_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	607;"	t	line:607
+USB_CD_Ptr	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	289;"	v	line:289
+USB_CFG_DSC_REM_WAKE::(0x20|USB_CFG_DSC_REQUIRED)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	156;"	d	line:156
+USB_CFG_DSC_REQUIRED::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	154;"	d	line:154
+USB_CFG_DSC_SELF_PWR::(0x40|USB_CFG_DSC_REQUIRED)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	155;"	d	line:155
+USB_CONFIGURATION_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	151;"	t	line:151
+USB_DATA0::0x00|USB_FORCE_DTS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	217;"	d	line:217
+USB_DATA1::0x20|USB_FORCE_DTS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	218;"	d	line:218
+USB_DESCRIPTOR_CONFIGURATION::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	99;"	d	line:99
+USB_DESCRIPTOR_DEVICE::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	98;"	d	line:98
+USB_DESCRIPTOR_DEVICE_QUALIFIER::0x06	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	103;"	d	line:103
+USB_DESCRIPTOR_ENDPOINT::0x05	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	102;"	d	line:102
+USB_DESCRIPTOR_INTERFACE::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	101;"	d	line:101
+USB_DESCRIPTOR_INTERFACE_POWER::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	105;"	d	line:105
+USB_DESCRIPTOR_OTG::0x09	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	106;"	d	line:106
+USB_DESCRIPTOR_OTHER_SPEED::0x07	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	104;"	d	line:104
+USB_DESCRIPTOR_STRING::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	100;"	d	line:100
+USB_DEVICE_ATTACHED::(USB_DEVICE_STATUS|0x30)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	127;"	d	line:127
+USB_DEVICE_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	131;"	t	line:131
+USB_DEVICE_DETACHED::(USB_DEVICE_STATUS|0x01)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	128;"	d	line:128
+USB_DEVICE_ENUMERATING::(USB_DEVICE_STATUS|0x02)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	129;"	d	line:129
+USB_DEVICE_QUALIFIER_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	307;"	t	line:307
+USB_DEVICE_STACK_EVENTS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	204;"	t	line:204
+USB_DEVICE_STATE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	156;"	t	line:156
+USB_DEVICE_STATUS::0x30	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	126;"	d	line:126
+USB_DEVICE_SUSPENDED::(USB_DEVICE_STATUS|0x0A)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	137;"	d	line:137
+USB_DISABLE_NONSTANDARD_EP0_REQUEST_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	250;"	d	line:250	file:
+USB_DISALLOW_SETUP::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	485;"	d	line:485
+USB_DOT_VER::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb.h	140;"	d	line:140
+USB_DTS_MASK::0x20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	215;"	d	line:215
+USB_ENABLE_ALL_HANDLERS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	102;"	d	line:102
+USB_ENDPOINT_BUSY::0x10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	104;"	d	line:104
+USB_ENDPOINT_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	195;"	t	line:195
+USB_ENDPOINT_ERROR::0x12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	106;"	d	line:106
+USB_ENDPOINT_ERROR_BIT_STUFF::0x20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	114;"	d	line:114
+USB_ENDPOINT_ERROR_BMX::0x27	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	121;"	d	line:121
+USB_ENDPOINT_ERROR_CRC16::0x24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	118;"	d	line:118
+USB_ENDPOINT_ERROR_DATA_FIELD::0x23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	117;"	d	line:117
+USB_ENDPOINT_ERROR_DMA::0x21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	115;"	d	line:115
+USB_ENDPOINT_ERROR_END_OF_FRAME::0x25	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	119;"	d	line:119
+USB_ENDPOINT_ERROR_ILLEGAL_PID::0x13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	107;"	d	line:107
+USB_ENDPOINT_ERROR_PID_CHECK::0x26	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	120;"	d	line:120
+USB_ENDPOINT_ERROR_TIMEOUT::0x22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	116;"	d	line:116
+USB_ENDPOINT_ILLEGAL_DIRECTION::0x15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	109;"	d	line:109
+USB_ENDPOINT_ILLEGAL_TYPE::0x18	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	112;"	d	line:112
+USB_ENDPOINT_NAK_TIMEOUT::0x17	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	111;"	d	line:111
+USB_ENDPOINT_NOT_FOUND::0x14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	108;"	d	line:108
+USB_ENDPOINT_STALLED::0x11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	105;"	d	line:105
+USB_ENDPOINT_UNRESOLVED_STATE::0x19	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	113;"	d	line:113
+USB_EP0::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	189;"	d	line:189
+USB_EP0_BUFF_SIZE::8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	53;"	d	line:53
+USB_EP0_BUSY::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	106;"	d	line:106
+USB_EP0_INCLUDE_ZERO::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	107;"	d	line:107
+USB_EP0_NO_DATA::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	108;"	d	line:108
+USB_EP0_NO_OPTIONS::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	109;"	d	line:109
+USB_EP0_RAM::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	105;"	d	line:105
+USB_EP0_ROM::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	104;"	d	line:104
+USB_EP10::10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	199;"	d	line:199
+USB_EP11::11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	200;"	d	line:200
+USB_EP12::12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	201;"	d	line:201
+USB_EP13::13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	202;"	d	line:202
+USB_EP14::14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	203;"	d	line:203
+USB_EP15::15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	204;"	d	line:204
+USB_EP1::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	190;"	d	line:190
+USB_EP2::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	191;"	d	line:191
+USB_EP3::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	192;"	d	line:192
+USB_EP4::4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	193;"	d	line:193
+USB_EP5::5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	194;"	d	line:194
+USB_EP6::6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	195;"	d	line:195
+USB_EP7::7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	196;"	d	line:196
+USB_EP8::8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	197;"	d	line:197
+USB_EP9::9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	198;"	d	line:198
+USB_EP_NUM_MASK::0x0F	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	222;"	d	line:222
+USB_ERROR_CLASS_DEFINED::0x50	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	139;"	d	line:139
+USB_ERROR_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	248;"	d	line:248	file:
+USB_ERROR_INSUFFICIENT_POWER::0x28	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	122;"	d	line:122
+USB_ERROR_INTERRUPT::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	237;"	d	line:237
+USB_ERROR_INTERRUPT::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	239;"	d	line:239
+USB_EVENT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	353;"	t	line:353
+USB_EVENT_HANDLER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	441;"	t	line:441
+USB_EVENT_QUEUE_FULL::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	103;"	d	line:103
+USB_EXTERNAL_TRANSCEIVER::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	452;"	d	line:452
+USB_FEATURE_DEVICE_REMOTE_WAKEUP::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	497;"	d	line:497
+USB_FEATURE_DEVICE_REMOTE_WAKEUP::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	537;"	d	line:537
+USB_FEATURE_ENDPOINT_HALT::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	496;"	d	line:496
+USB_FEATURE_ENDPOINT_STALL::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	536;"	d	line:536
+USB_FEATURE_TEST_MODE::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	498;"	d	line:498
+USB_FEATURE_TEST_MODE::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	538;"	d	line:538
+USB_FORCE_DTS::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	214;"	d	line:214
+USB_FULL_SPEED::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	454;"	d	line:454
+USB_HAL_ALLOW_HUB::0x8000	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	601;"	d	line:601
+USB_HAL_DEV_CONN_FULL_SPD::USB_HAL_PULL_UP_D_PLUS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	187;"	d	line:187
+USB_HAL_DEV_CONN_LOW_SPD::USB_HAL_PULL_UP_D_MINUS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	188;"	d	line:188
+USB_HAL_DEV_DISCONNECT::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	189;"	d	line:189
+USB_HAL_HANDSHAKE::0x0100	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	595;"	d	line:595
+USB_HAL_HANDSHAKE::0x1000	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	588;"	d	line:588
+USB_HAL_HW_KEEPS::0x0020	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	591;"	d	line:591
+USB_HAL_NO_INC::0x0010	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	590;"	d	line:590
+USB_HAL_NO_RETRY::0x4000	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	602;"	d	line:602
+USB_HAL_PIC18_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	99;"	d	line:99
+USB_HAL_PULL_DN_D_MINUS::0x10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	183;"	d	line:183
+USB_HAL_PULL_DN_D_PLUS::0x20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	182;"	d	line:182
+USB_HAL_PULL_UP_D_MINUS::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	181;"	d	line:181
+USB_HAL_PULL_UP_D_PLUS::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	180;"	d	line:180
+USB_HAL_RECEIVE::0x0200	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	587;"	d	line:587
+USB_HAL_RECEIVE::0x0800	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	594;"	d	line:594
+USB_HAL_TRANSMIT::0x0400	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	586;"	d	line:586
+USB_HAL_TRANSMIT::0x0400	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	593;"	d	line:593
+USB_HANDLE::void*	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	102;"	d	line:102
+USB_HANDSHAKE_DISABLED::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	476;"	d	line:476
+USB_HANDSHAKE_ENABLED::0x10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	475;"	d	line:475
+USB_HOLDING_CLIENT_INIT_ERROR::(USB_DEVICE_STATUS|0x09)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	136;"	d	line:136
+USB_HOLDING_INVALID_CONFIGURATION::(USB_DEVICE_STATUS|0x06)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	133;"	d	line:133
+USB_HOLDING_OUT_OF_MEMORY::(USB_DEVICE_STATUS|0x03)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	130;"	d	line:130
+USB_HOLDING_POWER_REQUIREMENT::(USB_DEVICE_STATUS|0x08)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	135;"	d	line:135
+USB_HOLDING_PROCESSING_CAPACITY::(USB_DEVICE_STATUS|0x07)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	134;"	d	line:134
+USB_HOLDING_UNSUPPORTED_DEVICE::(USB_DEVICE_STATUS|0x04)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	131;"	d	line:131
+USB_HOLDING_UNSUPPORTED_HUB::(USB_DEVICE_STATUS|0x05)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	132;"	d	line:132
+USB_HUB_CLASSCODE::0x09	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	542;"	d	line:542
+USB_ILLEGAL_REQUEST::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	98;"	d	line:98
+USB_INTERFACE_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	177;"	t	line:177
+USB_INTERNAL_TRANSCEIVER::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	451;"	d	line:451
+USB_INTERRUPT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	82;"	d	line:82
+USB_INVALID_CONFIGURATION::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	99;"	d	line:99
+USB_INVALID_STATE::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	96;"	d	line:96
+USB_IN_DISABLED::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	482;"	d	line:482
+USB_IN_ENABLED::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	481;"	d	line:481
+USB_IN_EP::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	479;"	d	line:479
+USB_In_Buffer	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	51;"	v	line:51
+USB_LOW_SPEED::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	455;"	d	line:455
+USB_MAJOR_VER::2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb.h	138;"	d	line:138
+USB_MAX_EP_NUMBER::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	117;"	d	line:117
+USB_MAX_NUM_INT::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	60;"	d	line:60
+USB_MEMORY_ALLOCATION_ERROR::0x05	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	100;"	d	line:100
+USB_MINOR_VER::6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb.h	139;"	d	line:139
+USB_NEXT_EP0_IN_PING_PONG::0x0004	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	107;"	d	line:107	file:
+USB_NEXT_EP0_OUT_PING_PONG::0x0004	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	106;"	d	line:106	file:
+USB_NEXT_PING_PONG::0x0004	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	108;"	d	line:108	file:
+USB_NUM_STRING_DESCRIPTORS::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	99;"	d	line:99
+USB_OTG_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	257;"	t	line:257
+USB_OUT_DISABLED::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	479;"	d	line:479
+USB_OUT_ENABLED::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	478;"	d	line:478
+USB_OUT_EP::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	480;"	d	line:480
+USB_Out_Buffer	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	52;"	v	line:52
+USB_PING_PONG_MODE::USB_PING_PONG__FULL_PING_PONG	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	76;"	d	line:76
+USB_PING_PONG__ALL_BUT_EP0::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	548;"	d	line:548
+USB_PING_PONG__EP0_OUT_ONLY::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	546;"	d	line:546
+USB_PING_PONG__FULL_PING_PONG::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	547;"	d	line:547
+USB_PING_PONG__NO_PING_PONG::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	545;"	d	line:545
+USB_PULLUP_DISABLED::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	449;"	d	line:449
+USB_PULLUP_ENABLE::0x10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	448;"	d	line:448
+USB_PULLUP_OPTION::USB_PULLUP_ENABLE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	85;"	d	line:85
+USB_RECEIVE::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	213;"	d	line:213
+USB_REQUEST_CLEAR_FEATURE::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	485;"	d	line:485
+USB_REQUEST_GET_CONFIGURATION::8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	490;"	d	line:490
+USB_REQUEST_GET_DESCRIPTOR::6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	488;"	d	line:488
+USB_REQUEST_GET_INTERFACE::10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	492;"	d	line:492
+USB_REQUEST_GET_STATUS::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	484;"	d	line:484
+USB_REQUEST_SET_ADDRESS::5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	487;"	d	line:487
+USB_REQUEST_SET_CONFIGURATION::9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	491;"	d	line:491
+USB_REQUEST_SET_DESCRIPTOR::7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	489;"	d	line:489
+USB_REQUEST_SET_FEATURE::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	486;"	d	line:486
+USB_REQUEST_SET_INTERFACE::11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	493;"	d	line:493
+USB_REQUEST_SYNCH_FRAME::12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	494;"	d	line:494
+USB_SD_Ptr	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	294;"	v	line:294
+USB_SETUP_DATA::USB_DATA1|USB_ZERO_PKT|USB_EP0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	220;"	d	line:220
+USB_SETUP_DEVICE_TO_HOST::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	503;"	d	line:503
+USB_SETUP_DEVICE_TO_HOST_BITFIELD::(USB_SETUP_DEVICE_TO_HOST>>7)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	513;"	d	line:513
+USB_SETUP_HOST_TO_DEVICE::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	502;"	d	line:502
+USB_SETUP_HOST_TO_DEVICE_BITFIELD::(USB_SETUP_HOST_TO_DEVICE>>7)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	512;"	d	line:512
+USB_SETUP_PKT::USB_RECEIVE|USB_DATA0|USB_EP0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	219;"	d	line:219
+USB_SETUP_RECIPIENT_DEVICE::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	507;"	d	line:507
+USB_SETUP_RECIPIENT_DEVICE_BITFIELD::(USB_SETUP_RECIPIENT_DEVICE)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	517;"	d	line:517
+USB_SETUP_RECIPIENT_ENDPOINT::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	509;"	d	line:509
+USB_SETUP_RECIPIENT_ENDPOINT_BITFIELD::(USB_SETUP_RECIPIENT_ENDPOINT)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	519;"	d	line:519
+USB_SETUP_RECIPIENT_INTERFACE::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	508;"	d	line:508
+USB_SETUP_RECIPIENT_INTERFACE_BITFIELD::(USB_SETUP_RECIPIENT_INTERFACE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	518;"	d	line:518
+USB_SETUP_RECIPIENT_OTHER::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	510;"	d	line:510
+USB_SETUP_RECIPIENT_OTHER_BITFIELD::(USB_SETUP_RECIPIENT_OTHER)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	520;"	d	line:520
+USB_SETUP_STATUS::USB_DATA1|USB_EP0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	221;"	d	line:221
+USB_SETUP_TYPE_CLASS::0x20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	505;"	d	line:505
+USB_SETUP_TYPE_CLASS_BITFIELD::(USB_SETUP_TYPE_CLASS>>5)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	515;"	d	line:515
+USB_SETUP_TYPE_STANDARD::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	504;"	d	line:504
+USB_SETUP_TYPE_STANDARD_BITFIELD::(USB_SETUP_TYPE_STANDARD>>5)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	514;"	d	line:514
+USB_SETUP_TYPE_VENDOR::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	506;"	d	line:506
+USB_SETUP_TYPE_VENDOR_BITFIELD::(USB_SETUP_TYPE_VENDOR>>5)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	516;"	d	line:516
+USB_SET_CONFIGURATION_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	254;"	d	line:254	file:
+USB_SET_DESCRIPTOR_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	252;"	d	line:252	file:
+USB_SINGLE_DEVICE_ADDRESS::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	141;"	d	line:141
+USB_SOF_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	246;"	d	line:246	file:
+USB_SOF_INTERRUPT::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	231;"	d	line:231
+USB_SOF_INTERRUPT::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	233;"	d	line:233
+USB_SPEED_OPTION::USB_FULL_SPEED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	94;"	d	line:94
+USB_STALL_ENDPOINT::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	487;"	d	line:487
+USB_STRING_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	281;"	t	line:281
+USB_SUCCESS::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	95;"	d	line:95
+USB_SUPPORT_DEVICE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	97;"	d	line:97
+USB_SUSPEND_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	242;"	d	line:242	file:
+USB_TOKEN_IN::0x09	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	468;"	d	line:468
+USB_TOKEN_OUT::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	467;"	d	line:467
+USB_TOKEN_SETUP::0x0D	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	469;"	d	line:469
+USB_TRANSCEIVER_OPTION::USB_INTERNAL_TRANSCEIVER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	88;"	d	line:88
+USB_TRANSFER_EVENT_DATA	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	371;"	t	line:371
+USB_TRANSFER_TYPE_BULK::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	532;"	d	line:532
+USB_TRANSFER_TYPE_CONTROL::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	530;"	d	line:530
+USB_TRANSFER_TYPE_INTERRUPT::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	533;"	d	line:533
+USB_TRANSFER_TYPE_ISOCHRONOUS::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	531;"	d	line:531
+USB_TRANSMIT::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	212;"	d	line:212
+USB_TRASFER_COMPLETE_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	256;"	d	line:256	file:
+USB_UNKNOWN_DEVICE::0x06	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	101;"	d	line:101
+USB_USER_CONFIG_DESCRIPTOR::USB_CD_Ptr	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	70;"	d	line:70
+USB_USER_CONFIG_DESCRIPTOR_INCLUDE::externROMBYTE*ROMUSB_CD_Ptr[]	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	71;"	d	line:71
+USB_USER_DEVICE_DESCRIPTOR::&device_dsc	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	65;"	d	line:65
+USB_USER_DEVICE_DESCRIPTOR_INCLUDE::externROMUSB_DEVICE_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	66;"	d	line:66
+USB_USE_CDC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_config.h	114;"	d	line:114
+USB_VBUS_CHARGE::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	250;"	d	line:250
+USB_VBUS_DISCHARGE::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	249;"	d	line:249
+USB_VBUS_POWER_EVENT_DATA	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	386;"	t	line:386
+USB_VBUS_POWER_OFF::4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	252;"	d	line:252
+USB_VBUS_POWER_ON::3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	251;"	d	line:251
+USB_VOLATILE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1123;"	d	line:1123
+USB_VOLATILE::volatile	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1125;"	d	line:1125
+USB_WAKEUP_FROM_SUSPEND_HANDLER::(event,pointer,size)USER_USB_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	244;"	d	line:244	file:
+USB_ZERO_PKT::0x10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	216;"	d	line:216
+USER_USB_CALLBACK_EVENT_HANDLER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	308;"	f	line:308	signature:(USB_EVENT event, void *pdata, WORD size)
+USER_USB_CALLBACK_EVENT_HANDLER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	261;"	p	line:261	file:	signature:(USB_EVENT event, void *pdata, WORD size)
+USTAT_EP0_IN::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	401;"	d	line:401
+USTAT_EP0_IN_EVEN::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	402;"	d	line:402
+USTAT_EP0_IN_ODD::0x06	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	403;"	d	line:403
+USTAT_EP0_OUT::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	397;"	d	line:397
+USTAT_EP0_OUT_EVEN::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	398;"	d	line:398
+USTAT_EP0_OUT_ODD::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	399;"	d	line:399
+USTAT_EP0_PP_MASK::~0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	395;"	d	line:395
+USTAT_EP_MASK::0x7E	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	396;"	d	line:396
+USTATcopy	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	195;"	v	line:195
+UW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	260;"	m	line:260	struct:<anonymous>::__PACKED
+UW	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	474;"	m	line:474	struct:<anonymous>::__PACKED
+UserInit	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	138;"	f	line:138	signature:(void)
+UserInit	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	64;"	p	line:64	file:	signature:(void)
+V25TER::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	135;"	d	line:135
+VOID	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	336;"	t	line:336
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	114;"	m	line:114
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	146;"	m	line:146
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	186;"	m	line:186
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	247;"	m	line:247
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	355;"	m	line:355
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	371;"	m	line:371
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	401;"	m	line:401
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	461;"	m	line:461
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	98;"	m	line:98
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1158;"	m	line:1158
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1182;"	m	line:1182
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	327;"	m	line:327	union:_BD_STAT
+Val	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	374;"	m	line:374	union:__BDT
+WAIT_SETUP::0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	102;"	d	line:102	file:
+WORD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	342;"	t	line:342
+WORD_BITS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	397;"	t	line:397
+WORD_VAL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	397;"	t	line:397
+W_Index	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	334;"	m	line:334
+W_Length	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	335;"	m	line:335
+W_Value	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	333;"	m	line:333
+XFLAGS::(f)((TRANSFER_FLAGS)((BYTE)(f)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	231;"	d	line:231
+YourHighPriorityISRCode	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	104;"	f	line:104
+YourHighPriorityISRCode	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	61;"	p	line:61	file:
+YourLowPriorityISRCode	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	110;"	f	line:110
+YourLowPriorityISRCode	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	62;"	p	line:62	file:
+_AD::(0x02<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	602;"	d	line:602
+_AS::(0x01<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	601;"	d	line:601
+_BD_STAT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	325;"	u	line:325
+_BIT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	65;"	g	line:65
+_BOOL	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	64;"	g	line:64
+_BSTALL::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	312;"	d	line:312
+_BULK::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	592;"	d	line:592
+_CDC_NOTICE	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	619;"	u	line:619
+_CONTROL_SIGNAL_BITMAP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	568;"	u	line:568
+_CTRL::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	590;"	d	line:590
+_DAT0::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	316;"	d	line:316
+_DAT1::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	317;"	d	line:317
+_DE::(0x00<<4)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	606;"	d	line:606
+_DEFAULT::(0x01<<7)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	583;"	d	line:583
+_DTSEN::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	313;"	d	line:313
+_DTSMASK::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	318;"	d	line:318
+_EP01_IN::0x81	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	552;"	d	line:552
+_EP01_OUT::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	551;"	d	line:551
+_EP02_IN::0x82	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	554;"	d	line:554
+_EP02_OUT::0x02	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	553;"	d	line:553
+_EP03_IN::0x83	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	556;"	d	line:556
+_EP03_OUT::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	555;"	d	line:555
+_EP04_IN::0x84	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	558;"	d	line:558
+_EP04_OUT::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	557;"	d	line:557
+_EP05_IN::0x85	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	560;"	d	line:560
+_EP05_OUT::0x05	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	559;"	d	line:559
+_EP06_IN::0x86	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	562;"	d	line:562
+_EP06_OUT::0x06	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	561;"	d	line:561
+_EP07_IN::0x87	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	564;"	d	line:564
+_EP07_OUT::0x07	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	563;"	d	line:563
+_EP08_IN::0x88	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	566;"	d	line:566
+_EP08_OUT::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	565;"	d	line:565
+_EP09_IN::0x89	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	568;"	d	line:568
+_EP09_OUT::0x09	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	567;"	d	line:567
+_EP10_IN::0x8A	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	570;"	d	line:570
+_EP10_OUT::0x0A	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	569;"	d	line:569
+_EP11_IN::0x8B	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	572;"	d	line:572
+_EP11_OUT::0x0B	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	571;"	d	line:571
+_EP12_IN::0x8C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	574;"	d	line:574
+_EP12_OUT::0x0C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	573;"	d	line:573
+_EP13_IN::0x8D	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	576;"	d	line:576
+_EP13_OUT::0x0D	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	575;"	d	line:575
+_EP14_IN::0x8E	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	578;"	d	line:578
+_EP14_OUT::0x0E	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	577;"	d	line:577
+_EP15_IN::0x8F	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	580;"	d	line:580
+_EP15_OUT::0x0F	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	579;"	d	line:579
+_EP_IN::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	549;"	d	line:549
+_EP_OUT::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	550;"	d	line:550
+_FE::(0x01<<4)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	607;"	d	line:607
+_FS::0x04	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	441;"	d	line:441
+_HNP::(0x01<<1)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	586;"	d	line:586
+_IE::(0x02<<4)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	608;"	d	line:608
+_INCDIS::0x10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	314;"	d	line:314
+_INT::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	596;"	d	line:596
+_INTERRUPT::0x03	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	594;"	d	line:594
+_ISO::0x01	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	591;"	d	line:591
+_KEN::0x20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	315;"	d	line:315
+_LINE_CODING	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	553;"	u	line:553
+_LS::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	440;"	d	line:440
+_NS::(0x00<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	600;"	d	line:600
+_OEMON::0x40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	445;"	d	line:445
+_POINTER	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	414;"	u	line:414
+_PUEN::0x10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	444;"	d	line:444
+_RWU::(0x01<<5)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	585;"	d	line:585
+_SELF::(0x01<<6)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	584;"	d	line:584
+_SRP::(0x01)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	587;"	d	line:587
+_STAT_MASK::0xFF	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	322;"	d	line:322
+_SY::(0x03<<2)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	603;"	d	line:603
+_TREXT::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	443;"	d	line:443
+_TRINT::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	442;"	d	line:442
+_UCPU::0x00	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	320;"	d	line:320
+_UEP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	408;"	t	line:408
+_USB_CDC_ACM_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	591;"	s	line:591
+_USB_CDC_CALL_MGT_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	610;"	s	line:610
+_USB_CDC_HEADER_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	582;"	s	line:582
+_USB_CDC_UNION_FN_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	600;"	s	line:600
+_USB_CH9_H_	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	88;"	d	line:88
+_USB_COMMON_H_	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	82;"	d	line:82
+_USB_CONFIGURATION_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	141;"	s	line:141
+_USB_DEVICE_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	115;"	s	line:115
+_USB_DEVICE_QUALIFIER_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	295;"	s	line:295
+_USB_ENDPOINT_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	187;"	s	line:187
+_USB_HAL_H_	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal.h	85;"	d	line:85
+_USB_H_	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb.h	100;"	d	line:100
+_USB_INTERFACE_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	166;"	s	line:166
+_USB_OTG_DESCRIPTOR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	252;"	s	line:252
+_USB_STRING_DSC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	276;"	s	line:276
+_USIE::0x80	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	319;"	d	line:319
+__18CXX	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	59;"	d	line:59
+__BDT	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	359;"	u	line:359
+__C32__	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	78;"	d	line:78
+__COMPILER_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	53;"	d	line:53
+__EXTENSION	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	546;"	d	line:546
+__EXTENSION	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	54;"	d	line:54
+__EXTENSION::__extension__	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	52;"	d	line:52
+__GENERIC_TYPE_DEFS_H_	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	48;"	d	line:48
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	115;"	m	line:115
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	116;"	s	line:116
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	121;"	s	line:121
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	147;"	m	line:147
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	148;"	s	line:148
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	154;"	s	line:154
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	187;"	m	line:187
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	188;"	m	line:188
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	189;"	s	line:189
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	194;"	s	line:194
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	201;"	s	line:201
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	206;"	s	line:206
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	248;"	m	line:248
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	249;"	m	line:249
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	250;"	m	line:250
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	251;"	s	line:251
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	256;"	s	line:256
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	263;"	s	line:263
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	356;"	s	line:356
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	372;"	m	line:372
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	373;"	s	line:373
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	378;"	s	line:378
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	402;"	m	line:402
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	403;"	m	line:403
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	404;"	s	line:404
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	409;"	s	line:409
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	416;"	s	line:416
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	421;"	s	line:421
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	462;"	m	line:462
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	463;"	m	line:463
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	464;"	m	line:464
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	465;"	s	line:465
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	470;"	s	line:470
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	477;"	s	line:477
+__PACKED	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	58;"	d	line:58
+__USB_DESCRIPTORS_C	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	154;"	d	line:154	file:
+__attribute__::(a)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	125;"	d	line:125
+_byte	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	557;"	m	line:557	struct:_LINE_CODING::<anonymous>
+_byte	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	570;"	m	line:570	union:_CONTROL_SIGNAL_BITMAP
+_reset	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	73;"	f	line:73	signature:(void)
+_startup	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	70;"	p	line:70	file:	signature:(void)
+_transfer_event_data	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	365;"	s	line:365
+_vbus_power_data	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	382;"	s	line:382
+_word	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	422;"	m	line:422	union:_POINTER
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	101;"	m	line:101
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	123;"	m	line:123	struct:<anonymous>::__PACKED
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	156;"	m	line:156	struct:<anonymous>::__PACKED
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	208;"	m	line:208	struct:<anonymous>::__PACKED
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	265;"	m	line:265	struct:<anonymous>::__PACKED
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	358;"	m	line:358	struct:<anonymous>::__PACKED
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	380;"	m	line:380	struct:<anonymous>::__PACKED
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	423;"	m	line:423	struct:<anonymous>::__PACKED
+b0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	479;"	m	line:479	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	102;"	m	line:102
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	124;"	m	line:124	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	157;"	m	line:157	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	209;"	m	line:209	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	266;"	m	line:266	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	359;"	m	line:359	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	381;"	m	line:381	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	424;"	m	line:424	struct:<anonymous>::__PACKED
+b1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	480;"	m	line:480	struct:<anonymous>::__PACKED
+b10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	133;"	m	line:133	struct:<anonymous>::__PACKED
+b10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	166;"	m	line:166	struct:<anonymous>::__PACKED
+b10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	218;"	m	line:218	struct:<anonymous>::__PACKED
+b10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	275;"	m	line:275	struct:<anonymous>::__PACKED
+b10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	390;"	m	line:390	struct:<anonymous>::__PACKED
+b10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	433;"	m	line:433	struct:<anonymous>::__PACKED
+b10	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	489;"	m	line:489	struct:<anonymous>::__PACKED
+b11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	134;"	m	line:134	struct:<anonymous>::__PACKED
+b11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	167;"	m	line:167	struct:<anonymous>::__PACKED
+b11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	219;"	m	line:219	struct:<anonymous>::__PACKED
+b11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	276;"	m	line:276	struct:<anonymous>::__PACKED
+b11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	391;"	m	line:391	struct:<anonymous>::__PACKED
+b11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	434;"	m	line:434	struct:<anonymous>::__PACKED
+b11	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	490;"	m	line:490	struct:<anonymous>::__PACKED
+b12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	135;"	m	line:135	struct:<anonymous>::__PACKED
+b12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	168;"	m	line:168	struct:<anonymous>::__PACKED
+b12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	220;"	m	line:220	struct:<anonymous>::__PACKED
+b12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	277;"	m	line:277	struct:<anonymous>::__PACKED
+b12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	392;"	m	line:392	struct:<anonymous>::__PACKED
+b12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	435;"	m	line:435	struct:<anonymous>::__PACKED
+b12	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	491;"	m	line:491	struct:<anonymous>::__PACKED
+b13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	136;"	m	line:136	struct:<anonymous>::__PACKED
+b13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	169;"	m	line:169	struct:<anonymous>::__PACKED
+b13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	221;"	m	line:221	struct:<anonymous>::__PACKED
+b13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	278;"	m	line:278	struct:<anonymous>::__PACKED
+b13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	393;"	m	line:393	struct:<anonymous>::__PACKED
+b13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	436;"	m	line:436	struct:<anonymous>::__PACKED
+b13	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	492;"	m	line:492	struct:<anonymous>::__PACKED
+b14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	137;"	m	line:137	struct:<anonymous>::__PACKED
+b14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	170;"	m	line:170	struct:<anonymous>::__PACKED
+b14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	222;"	m	line:222	struct:<anonymous>::__PACKED
+b14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	279;"	m	line:279	struct:<anonymous>::__PACKED
+b14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	394;"	m	line:394	struct:<anonymous>::__PACKED
+b14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	437;"	m	line:437	struct:<anonymous>::__PACKED
+b14	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	493;"	m	line:493	struct:<anonymous>::__PACKED
+b15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	138;"	m	line:138	struct:<anonymous>::__PACKED
+b15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	171;"	m	line:171	struct:<anonymous>::__PACKED
+b15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	223;"	m	line:223	struct:<anonymous>::__PACKED
+b15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	280;"	m	line:280	struct:<anonymous>::__PACKED
+b15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	395;"	m	line:395	struct:<anonymous>::__PACKED
+b15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	438;"	m	line:438	struct:<anonymous>::__PACKED
+b15	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	494;"	m	line:494	struct:<anonymous>::__PACKED
+b16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	172;"	m	line:172	struct:<anonymous>::__PACKED
+b16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	224;"	m	line:224	struct:<anonymous>::__PACKED
+b16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	281;"	m	line:281	struct:<anonymous>::__PACKED
+b16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	439;"	m	line:439	struct:<anonymous>::__PACKED
+b16	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	495;"	m	line:495	struct:<anonymous>::__PACKED
+b17	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	173;"	m	line:173	struct:<anonymous>::__PACKED
+b17	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	225;"	m	line:225	struct:<anonymous>::__PACKED
+b17	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	282;"	m	line:282	struct:<anonymous>::__PACKED
+b17	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	440;"	m	line:440	struct:<anonymous>::__PACKED
+b17	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	496;"	m	line:496	struct:<anonymous>::__PACKED
+b18	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	174;"	m	line:174	struct:<anonymous>::__PACKED
+b18	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	226;"	m	line:226	struct:<anonymous>::__PACKED
+b18	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	283;"	m	line:283	struct:<anonymous>::__PACKED
+b18	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	441;"	m	line:441	struct:<anonymous>::__PACKED
+b18	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	497;"	m	line:497	struct:<anonymous>::__PACKED
+b19	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	175;"	m	line:175	struct:<anonymous>::__PACKED
+b19	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	227;"	m	line:227	struct:<anonymous>::__PACKED
+b19	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	284;"	m	line:284	struct:<anonymous>::__PACKED
+b19	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	442;"	m	line:442	struct:<anonymous>::__PACKED
+b19	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	498;"	m	line:498	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	103;"	m	line:103
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	125;"	m	line:125	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	158;"	m	line:158	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	210;"	m	line:210	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	267;"	m	line:267	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	360;"	m	line:360	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	382;"	m	line:382	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	425;"	m	line:425	struct:<anonymous>::__PACKED
+b2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	481;"	m	line:481	struct:<anonymous>::__PACKED
+b20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	176;"	m	line:176	struct:<anonymous>::__PACKED
+b20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	228;"	m	line:228	struct:<anonymous>::__PACKED
+b20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	285;"	m	line:285	struct:<anonymous>::__PACKED
+b20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	443;"	m	line:443	struct:<anonymous>::__PACKED
+b20	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	499;"	m	line:499	struct:<anonymous>::__PACKED
+b21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	177;"	m	line:177	struct:<anonymous>::__PACKED
+b21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	229;"	m	line:229	struct:<anonymous>::__PACKED
+b21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	286;"	m	line:286	struct:<anonymous>::__PACKED
+b21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	444;"	m	line:444	struct:<anonymous>::__PACKED
+b21	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	500;"	m	line:500	struct:<anonymous>::__PACKED
+b22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	178;"	m	line:178	struct:<anonymous>::__PACKED
+b22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	230;"	m	line:230	struct:<anonymous>::__PACKED
+b22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	287;"	m	line:287	struct:<anonymous>::__PACKED
+b22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	445;"	m	line:445	struct:<anonymous>::__PACKED
+b22	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	501;"	m	line:501	struct:<anonymous>::__PACKED
+b23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	179;"	m	line:179	struct:<anonymous>::__PACKED
+b23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	231;"	m	line:231	struct:<anonymous>::__PACKED
+b23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	288;"	m	line:288	struct:<anonymous>::__PACKED
+b23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	446;"	m	line:446	struct:<anonymous>::__PACKED
+b23	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	502;"	m	line:502	struct:<anonymous>::__PACKED
+b24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	232;"	m	line:232	struct:<anonymous>::__PACKED
+b24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	289;"	m	line:289	struct:<anonymous>::__PACKED
+b24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	447;"	m	line:447	struct:<anonymous>::__PACKED
+b24	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	503;"	m	line:503	struct:<anonymous>::__PACKED
+b25	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	233;"	m	line:233	struct:<anonymous>::__PACKED
+b25	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	290;"	m	line:290	struct:<anonymous>::__PACKED
+b25	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	448;"	m	line:448	struct:<anonymous>::__PACKED
+b25	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	504;"	m	line:504	struct:<anonymous>::__PACKED
+b26	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	234;"	m	line:234	struct:<anonymous>::__PACKED
+b26	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	291;"	m	line:291	struct:<anonymous>::__PACKED
+b26	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	449;"	m	line:449	struct:<anonymous>::__PACKED
+b26	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	505;"	m	line:505	struct:<anonymous>::__PACKED
+b27	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	235;"	m	line:235	struct:<anonymous>::__PACKED
+b27	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	292;"	m	line:292	struct:<anonymous>::__PACKED
+b27	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	450;"	m	line:450	struct:<anonymous>::__PACKED
+b27	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	506;"	m	line:506	struct:<anonymous>::__PACKED
+b28	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	236;"	m	line:236	struct:<anonymous>::__PACKED
+b28	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	293;"	m	line:293	struct:<anonymous>::__PACKED
+b28	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	451;"	m	line:451	struct:<anonymous>::__PACKED
+b28	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	507;"	m	line:507	struct:<anonymous>::__PACKED
+b29	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	237;"	m	line:237	struct:<anonymous>::__PACKED
+b29	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	294;"	m	line:294	struct:<anonymous>::__PACKED
+b29	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	452;"	m	line:452	struct:<anonymous>::__PACKED
+b29	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	508;"	m	line:508	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	104;"	m	line:104
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	126;"	m	line:126	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	159;"	m	line:159	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	211;"	m	line:211	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	268;"	m	line:268	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	361;"	m	line:361	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	383;"	m	line:383	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	426;"	m	line:426	struct:<anonymous>::__PACKED
+b3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	482;"	m	line:482	struct:<anonymous>::__PACKED
+b30	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	238;"	m	line:238	struct:<anonymous>::__PACKED
+b30	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	295;"	m	line:295	struct:<anonymous>::__PACKED
+b30	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	453;"	m	line:453	struct:<anonymous>::__PACKED
+b30	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	509;"	m	line:509	struct:<anonymous>::__PACKED
+b31	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	239;"	m	line:239	struct:<anonymous>::__PACKED
+b31	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	296;"	m	line:296	struct:<anonymous>::__PACKED
+b31	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	454;"	m	line:454	struct:<anonymous>::__PACKED
+b31	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	510;"	m	line:510	struct:<anonymous>::__PACKED
+b32	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	297;"	m	line:297	struct:<anonymous>::__PACKED
+b32	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	511;"	m	line:511	struct:<anonymous>::__PACKED
+b33	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	298;"	m	line:298	struct:<anonymous>::__PACKED
+b33	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	512;"	m	line:512	struct:<anonymous>::__PACKED
+b34	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	299;"	m	line:299	struct:<anonymous>::__PACKED
+b34	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	513;"	m	line:513	struct:<anonymous>::__PACKED
+b35	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	300;"	m	line:300	struct:<anonymous>::__PACKED
+b35	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	514;"	m	line:514	struct:<anonymous>::__PACKED
+b36	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	301;"	m	line:301	struct:<anonymous>::__PACKED
+b36	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	515;"	m	line:515	struct:<anonymous>::__PACKED
+b37	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	302;"	m	line:302	struct:<anonymous>::__PACKED
+b37	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	516;"	m	line:516	struct:<anonymous>::__PACKED
+b38	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	303;"	m	line:303	struct:<anonymous>::__PACKED
+b38	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	517;"	m	line:517	struct:<anonymous>::__PACKED
+b39	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	304;"	m	line:304	struct:<anonymous>::__PACKED
+b39	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	518;"	m	line:518	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	105;"	m	line:105
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	127;"	m	line:127	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	160;"	m	line:160	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	212;"	m	line:212	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	269;"	m	line:269	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	362;"	m	line:362	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	384;"	m	line:384	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	427;"	m	line:427	struct:<anonymous>::__PACKED
+b4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	483;"	m	line:483	struct:<anonymous>::__PACKED
+b40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	305;"	m	line:305	struct:<anonymous>::__PACKED
+b40	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	519;"	m	line:519	struct:<anonymous>::__PACKED
+b41	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	306;"	m	line:306	struct:<anonymous>::__PACKED
+b41	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	520;"	m	line:520	struct:<anonymous>::__PACKED
+b42	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	307;"	m	line:307	struct:<anonymous>::__PACKED
+b42	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	521;"	m	line:521	struct:<anonymous>::__PACKED
+b43	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	308;"	m	line:308	struct:<anonymous>::__PACKED
+b43	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	522;"	m	line:522	struct:<anonymous>::__PACKED
+b44	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	309;"	m	line:309	struct:<anonymous>::__PACKED
+b44	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	523;"	m	line:523	struct:<anonymous>::__PACKED
+b45	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	310;"	m	line:310	struct:<anonymous>::__PACKED
+b45	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	524;"	m	line:524	struct:<anonymous>::__PACKED
+b46	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	311;"	m	line:311	struct:<anonymous>::__PACKED
+b46	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	525;"	m	line:525	struct:<anonymous>::__PACKED
+b47	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	312;"	m	line:312	struct:<anonymous>::__PACKED
+b47	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	526;"	m	line:526	struct:<anonymous>::__PACKED
+b48	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	313;"	m	line:313	struct:<anonymous>::__PACKED
+b48	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	527;"	m	line:527	struct:<anonymous>::__PACKED
+b49	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	314;"	m	line:314	struct:<anonymous>::__PACKED
+b49	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	528;"	m	line:528	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	106;"	m	line:106
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	128;"	m	line:128	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	161;"	m	line:161	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	213;"	m	line:213	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	270;"	m	line:270	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	363;"	m	line:363	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	385;"	m	line:385	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	428;"	m	line:428	struct:<anonymous>::__PACKED
+b5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	484;"	m	line:484	struct:<anonymous>::__PACKED
+b50	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	315;"	m	line:315	struct:<anonymous>::__PACKED
+b50	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	529;"	m	line:529	struct:<anonymous>::__PACKED
+b51	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	316;"	m	line:316	struct:<anonymous>::__PACKED
+b51	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	530;"	m	line:530	struct:<anonymous>::__PACKED
+b52	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	317;"	m	line:317	struct:<anonymous>::__PACKED
+b52	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	531;"	m	line:531	struct:<anonymous>::__PACKED
+b53	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	318;"	m	line:318	struct:<anonymous>::__PACKED
+b53	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	532;"	m	line:532	struct:<anonymous>::__PACKED
+b54	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	319;"	m	line:319	struct:<anonymous>::__PACKED
+b54	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	533;"	m	line:533	struct:<anonymous>::__PACKED
+b55	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	320;"	m	line:320	struct:<anonymous>::__PACKED
+b55	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	534;"	m	line:534	struct:<anonymous>::__PACKED
+b56	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	321;"	m	line:321	struct:<anonymous>::__PACKED
+b56	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	535;"	m	line:535	struct:<anonymous>::__PACKED
+b57	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	322;"	m	line:322	struct:<anonymous>::__PACKED
+b57	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	536;"	m	line:536	struct:<anonymous>::__PACKED
+b58	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	323;"	m	line:323	struct:<anonymous>::__PACKED
+b58	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	537;"	m	line:537	struct:<anonymous>::__PACKED
+b59	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	324;"	m	line:324	struct:<anonymous>::__PACKED
+b59	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	538;"	m	line:538	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	107;"	m	line:107
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	129;"	m	line:129	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	162;"	m	line:162	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	214;"	m	line:214	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	271;"	m	line:271	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	364;"	m	line:364	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	386;"	m	line:386	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	429;"	m	line:429	struct:<anonymous>::__PACKED
+b6	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	485;"	m	line:485	struct:<anonymous>::__PACKED
+b60	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	325;"	m	line:325	struct:<anonymous>::__PACKED
+b60	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	539;"	m	line:539	struct:<anonymous>::__PACKED
+b61	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	326;"	m	line:326	struct:<anonymous>::__PACKED
+b61	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	540;"	m	line:540	struct:<anonymous>::__PACKED
+b62	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	327;"	m	line:327	struct:<anonymous>::__PACKED
+b62	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	541;"	m	line:541	struct:<anonymous>::__PACKED
+b63	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	328;"	m	line:328	struct:<anonymous>::__PACKED
+b63	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	542;"	m	line:542	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	108;"	m	line:108
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	130;"	m	line:130	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	163;"	m	line:163	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	215;"	m	line:215	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	272;"	m	line:272	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	365;"	m	line:365	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	387;"	m	line:387	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	430;"	m	line:430	struct:<anonymous>::__PACKED
+b7	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	486;"	m	line:486	struct:<anonymous>::__PACKED
+b8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	131;"	m	line:131	struct:<anonymous>::__PACKED
+b8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	164;"	m	line:164	struct:<anonymous>::__PACKED
+b8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	216;"	m	line:216	struct:<anonymous>::__PACKED
+b8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	273;"	m	line:273	struct:<anonymous>::__PACKED
+b8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	388;"	m	line:388	struct:<anonymous>::__PACKED
+b8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	431;"	m	line:431	struct:<anonymous>::__PACKED
+b8	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	487;"	m	line:487	struct:<anonymous>::__PACKED
+b9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	132;"	m	line:132	struct:<anonymous>::__PACKED
+b9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	165;"	m	line:165	struct:<anonymous>::__PACKED
+b9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	217;"	m	line:217	struct:<anonymous>::__PACKED
+b9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	274;"	m	line:274	struct:<anonymous>::__PACKED
+b9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	389;"	m	line:389	struct:<anonymous>::__PACKED
+b9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	432;"	m	line:432	struct:<anonymous>::__PACKED
+b9	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	488;"	m	line:488	struct:<anonymous>::__PACKED
+bAltID	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	399;"	m	line:399
+bAltID_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	400;"	m	line:400
+bAlternateSetting	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	171;"	m	line:171	struct:_USB_INTERFACE_DESCRIPTOR
+bCfgRSD	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	389;"	m	line:389
+bCharFormat	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	562;"	m	line:562	struct:_LINE_CODING::<anonymous>
+bConfigurationValue	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	147;"	m	line:147	struct:_USB_CONFIGURATION_DESCRIPTOR
+bConfigurationValue	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	388;"	m	line:388
+bDataBits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	564;"	m	line:564	struct:_LINE_CODING::<anonymous>
+bDataInterface	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	616;"	m	line:616	struct:_USB_CDC_CALL_MGT_FN_DSC
+bDescriptorType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	118;"	m	line:118	struct:_USB_DEVICE_DESCRIPTOR
+bDescriptorType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	144;"	m	line:144	struct:_USB_CONFIGURATION_DESCRIPTOR
+bDescriptorType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	169;"	m	line:169	struct:_USB_INTERFACE_DESCRIPTOR
+bDescriptorType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	190;"	m	line:190	struct:_USB_ENDPOINT_DESCRIPTOR
+bDescriptorType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	255;"	m	line:255	struct:_USB_OTG_DESCRIPTOR
+bDescriptorType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	279;"	m	line:279	struct:_USB_STRING_DSC
+bDescriptorType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	368;"	m	line:368
+bDevADR	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	377;"	m	line:377
+bDevADRH	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	378;"	m	line:378
+bDeviceClass	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	120;"	m	line:120	struct:_USB_DEVICE_DESCRIPTOR
+bDeviceClass	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	300;"	m	line:300	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bDeviceProtocol	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	122;"	m	line:122	struct:_USB_DEVICE_DESCRIPTOR
+bDeviceProtocol	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	302;"	m	line:302	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bDeviceSubClass	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	121;"	m	line:121	struct:_USB_DEVICE_DESCRIPTOR
+bDeviceSubClass	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	301;"	m	line:301	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bDscIndex	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	367;"	m	line:367
+bDscSubType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	586;"	m	line:586	struct:_USB_CDC_HEADER_FN_DSC
+bDscSubType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	595;"	m	line:595	struct:_USB_CDC_ACM_FN_DSC
+bDscSubType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	604;"	m	line:604	struct:_USB_CDC_UNION_FN_DSC
+bDscSubType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	614;"	m	line:614	struct:_USB_CDC_CALL_MGT_FN_DSC
+bDscType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	271;"	m	line:271	file:
+bDscType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	275;"	m	line:275	file:
+bDscType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	282;"	m	line:282	file:
+bDscType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	585;"	m	line:585	struct:_USB_CDC_HEADER_FN_DSC
+bDscType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	594;"	m	line:594	struct:_USB_CDC_ACM_FN_DSC
+bDscType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	603;"	m	line:603	struct:_USB_CDC_UNION_FN_DSC
+bDscType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	613;"	m	line:613	struct:_USB_CDC_CALL_MGT_FN_DSC
+bEPID	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	412;"	m	line:412
+bEPID_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	413;"	m	line:413
+bEndpointAddress	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	191;"	m	line:191	struct:_USB_ENDPOINT_DESCRIPTOR
+bFNLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	584;"	m	line:584	struct:_USB_CDC_HEADER_FN_DSC
+bFNLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	593;"	m	line:593	struct:_USB_CDC_ACM_FN_DSC
+bFNLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	602;"	m	line:602	struct:_USB_CDC_UNION_FN_DSC
+bFNLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	612;"	m	line:612	struct:_USB_CDC_CALL_MGT_FN_DSC
+bFeature	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	343;"	m	line:343
+bHigh	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	419;"	m	line:419	struct:_POINTER::<anonymous>
+bInterfaceClass	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	173;"	m	line:173	struct:_USB_INTERFACE_DESCRIPTOR
+bInterfaceNumber	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	170;"	m	line:170	struct:_USB_INTERFACE_DESCRIPTOR
+bInterfaceProtocol	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	175;"	m	line:175	struct:_USB_INTERFACE_DESCRIPTOR
+bInterfaceSubClass	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	174;"	m	line:174	struct:_USB_INTERFACE_DESCRIPTOR
+bInterval	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	194;"	m	line:194	struct:_USB_ENDPOINT_DESCRIPTOR
+bIntfID	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	401;"	m	line:401
+bIntfID_H	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	402;"	m	line:402
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	117;"	m	line:117	struct:_USB_DEVICE_DESCRIPTOR
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	143;"	m	line:143	struct:_USB_CONFIGURATION_DESCRIPTOR
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	168;"	m	line:168	struct:_USB_INTERFACE_DESCRIPTOR
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	189;"	m	line:189	struct:_USB_ENDPOINT_DESCRIPTOR
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	254;"	m	line:254	struct:_USB_OTG_DESCRIPTOR
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	278;"	m	line:278	struct:_USB_STRING_DSC
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	297;"	m	line:297	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	271;"	m	line:271	file:
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	275;"	m	line:275	file:
+bLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	282;"	m	line:282	file:
+bLow	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	418;"	m	line:418	struct:_POINTER::<anonymous>
+bMasterIntf	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	605;"	m	line:605	struct:_USB_CDC_UNION_FN_DSC
+bMaxPacketSize0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	123;"	m	line:123	struct:_USB_DEVICE_DESCRIPTOR
+bMaxPacketSize0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	303;"	m	line:303	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bMaxPower	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	150;"	m	line:150	struct:_USB_CONFIGURATION_DESCRIPTOR
+bNumConfigurations	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	130;"	m	line:130	struct:_USB_DEVICE_DESCRIPTOR
+bNumConfigurations	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	304;"	m	line:304	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bNumEndpoints	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	172;"	m	line:172	struct:_USB_INTERFACE_DESCRIPTOR
+bNumInterfaces	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	146;"	m	line:146	struct:_USB_CONFIGURATION_DESCRIPTOR
+bParityType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	563;"	m	line:563	struct:_LINE_CODING::<anonymous>
+bRam	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1140;"	m	line:1140
+bRam	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1171;"	m	line:1171
+bRam	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	426;"	m	line:426	union:_POINTER
+bRequest	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	324;"	m	line:324
+bReserved	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	305;"	m	line:305	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bRom	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1141;"	m	line:1141
+bRom	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	431;"	m	line:431	union:_POINTER
+bSaveIntf0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	606;"	m	line:606	struct:_USB_CDC_UNION_FN_DSC
+bType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	298;"	m	line:298	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bcdCDC	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	587;"	m	line:587	struct:_USB_CDC_HEADER_FN_DSC
+bcdDevice	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	126;"	m	line:126	struct:_USB_DEVICE_DESCRIPTOR
+bcdUSB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	119;"	m	line:119	struct:_USB_DEVICE_DESCRIPTOR
+bcdUSB	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	299;"	m	line:299	struct:_USB_DEVICE_QUALIFIER_DESCRIPTOR
+bitmap	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	171;"	m	line:171
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	109;"	m	line:109
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	139;"	m	line:139
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	180;"	m	line:180
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	240;"	m	line:240
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	329;"	m	line:329
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	366;"	m	line:366
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	396;"	m	line:396
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	455;"	m	line:455
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	543;"	m	line:543
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1157;"	m	line:1157
+bits	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1181;"	m	line:1181
+bmAttributes	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	149;"	m	line:149	struct:_USB_CONFIGURATION_DESCRIPTOR
+bmAttributes	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	192;"	m	line:192	struct:_USB_ENDPOINT_DESCRIPTOR
+bmAttributes	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	256;"	m	line:256	struct:_USB_OTG_DESCRIPTOR
+bmCapabilities	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	596;"	m	line:596	struct:_USB_CDC_ACM_FN_DSC
+bmCapabilities	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	615;"	m	line:615	struct:_USB_CDC_CALL_MGT_FN_DSC
+bmRequestType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	323;"	m	line:323
+bmRequestType	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	354;"	m	line:354
+busy	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1156;"	m	line:1156
+busy	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1180;"	m	line:1180
+buttonCount	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	56;"	v	line:56
+buttonPressed	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	55;"	v	line:55
+byte	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	120;"	m	line:120
+byte	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	153;"	m	line:153
+byte	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	200;"	m	line:200
+byte	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	377;"	m	line:377
+byte	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	415;"	m	line:415
+byteToRead	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1796;"	l	line:1796
+byteToSend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1701;"	l	line:1701
+byte_to_send	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	699;"	l	line:699
+cdc_data_rx	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	105;"	v	line:105
+cdc_data_tx	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	106;"	v	line:106
+cdc_mem_type	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	116;"	v	line:116
+cdc_notice	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	104;"	v	line:104
+cdc_rx_len	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	110;"	v	line:110
+cdc_trf_state	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	112;"	v	line:112
+cdc_tx_len	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	115;"	v	line:115
+configDescriptor1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	185;"	v	line:185
+controlTransferState	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	190;"	v	line:190
+control_signal_bitmap	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	122;"	v	line:122
+ctrl_trf_mem	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1150;"	m	line:1150
+current	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	385;"	m	line:385	struct:_vbus_power_data
+delay_count	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	296;"	l	line:296	file:
+device_dsc	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	166;"	v	line:166
+direction	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	359;"	m	line:359
+direction	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	178;"	m	line:178
+dts	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	176;"	m	line:176
+dummy_encapsulated_cmd_response	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	134;"	v	line:134
+dummy_length::0x08	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	133;"	d	line:133	file:
+dwDTERate	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	561;"	m	line:561	struct:_LINE_CODING::<anonymous>
+dword	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	255;"	m	line:255
+dword	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	469;"	m	line:469
+ep_num	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	174;"	m	line:174
+far	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	158;"	d	line:158
+field	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	179;"	m	line:179
+flags	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	367;"	m	line:367	struct:_transfer_event_data
+force_dts	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	177;"	m	line:177
+getsUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	352;"	f	line:352	signature:(char *buffer, BYTE len)
+getsUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	644;"	p	line:644	signature:(char *buffer, BYTE len)
+handle	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1941;"	l	line:1941
+handle	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2129;"	l	line:2129
+high	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	204;"	m	line:204	struct:<anonymous>::__PACKED
+high	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	419;"	m	line:419	struct:<anonymous>::__PACKED
+i	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	155;"	l	line:155
+i	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1797;"	l	line:1797
+i	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1874;"	l	line:1874
+i	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	315;"	l	line:315
+i	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	422;"	l	line:422
+i	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	700;"	l	line:700
+iConfiguration	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	148;"	m	line:148	struct:_USB_CONFIGURATION_DESCRIPTOR
+iInterface	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	176;"	m	line:176	struct:_USB_INTERFACE_DESCRIPTOR
+iManufacturer	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	127;"	m	line:127	struct:_USB_DEVICE_DESCRIPTOR
+iProduct	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	128;"	m	line:128	struct:_USB_DEVICE_DESCRIPTOR
+iSerialNumber	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	129;"	m	line:129	struct:_USB_DEVICE_DESCRIPTOR
+idProduct	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	125;"	m	line:125	struct:_USB_DEVICE_DESCRIPTOR
+idVendor	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	124;"	m	line:124	struct:_USB_DEVICE_DESCRIPTOR
+inPipes	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	191;"	v	line:191
+includeZero	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1154;"	m	line:1154
+index	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	239;"	m	line:239
+info	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1159;"	m	line:1159
+info	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1183;"	m	line:1183
+language_id	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	241;"	m	line:241
+lastDTS	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1085;"	l	line:1085
+len	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	498;"	l	line:498
+len	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	595;"	l	line:595
+line_coding	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	107;"	v	line:107
+low	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	203;"	m	line:203	struct:<anonymous>::__PACKED
+low	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	418;"	m	line:418	struct:<anonymous>::__PACKED
+mGetLED_1::mLED_1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	112;"	d	line:112
+mGetLED_2::mLED_2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	113;"	d	line:113
+mGetLED_3::mLED_3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	114;"	d	line:114
+mGetLED_4::mLED_4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	115;"	d	line:115
+mInitAllLEDs::LATD&=0xF0;TRISD&=0xF0;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	105;"	d	line:105
+mInitAllSwitches::TRISBbits.TRISB4=1;TRISBbits.T	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	133;"	d	line:133
+mInitSwitch2::TRISBbits.TRISB4=1;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	134;"	d	line:134
+mInitSwitch3::TRISBbits.TRISB5=1;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	135;"	d	line:135
+mLED_1::LATDbits.LATD0	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	107;"	d	line:107
+mLED_1_Off::mLED_1=0;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	122;"	d	line:122
+mLED_1_On::mLED_1=1;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	117;"	d	line:117
+mLED_1_Toggle::mLED_1=!mLED_1;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	127;"	d	line:127
+mLED_2::LATDbits.LATD1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	108;"	d	line:108
+mLED_2_Off::mLED_2=0;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	123;"	d	line:123
+mLED_2_On::mLED_2=1;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	118;"	d	line:118
+mLED_2_Toggle::mLED_2=!mLED_2;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	128;"	d	line:128
+mLED_3::LATDbits.LATD2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	109;"	d	line:109
+mLED_3_Off::mLED_3=0;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	124;"	d	line:124
+mLED_3_On::mLED_3=1;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	119;"	d	line:119
+mLED_3_Toggle::mLED_3=!mLED_3;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	129;"	d	line:129
+mLED_4::LATDbits.LATD3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	110;"	d	line:110
+mLED_4_Off::mLED_4=0;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	125;"	d	line:125
+mLED_4_On::mLED_4=1;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	120;"	d	line:120
+mLED_4_Toggle::mLED_4=!mLED_4;	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	130;"	d	line:130
+mUSBUSARTIsTxTrfReady::USBUSARTIsTxTrfReady	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	469;"	d	line:469
+mUSBUSARTTxRam::(pData,len)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	507;"	d	line:507
+mUSBUSARTTxRom::(pData,len)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	546;"	d	line:546
+main	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	117;"	f	line:117	signature:(void)
+memcmppgm2ram::(a,b,c)memcmp(a,b,c)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	110;"	d	line:110
+memcpypgm2ram::(a,b,c)memcpy(a,b,c)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	112;"	d	line:112
+numBytesRead	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	145;"	l	line:145
+outPipes	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	192;"	v	line:192
+p	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1166;"	l	line:1166
+p	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1268;"	l	line:1268
+p	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1499;"	l	line:1499
+p	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2032;"	l	line:2032
+p	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	2071;"	l	line:2071
+pBDTEntryEP0OutCurrent	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	185;"	v	line:185
+pBDTEntryEP0OutNext	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	186;"	v	line:186
+pBDTEntryIn	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	188;"	v	line:188
+pBDTEntryOut	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	187;"	v	line:187
+pCDCDst	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	114;"	v	line:114
+pCDCSrc	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	113;"	v	line:113
+pData	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	499;"	l	line:499
+pData	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	596;"	l	line:596
+pDst	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	193;"	v	line:193
+pDst	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1173;"	m	line:1173
+pFunc	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1179;"	p	line:1179	file:
+pFunc	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1848;"	p	line:1848	file:
+pFunc	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1185;"	m	line:1185
+pSrc	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1144;"	m	line:1144
+pUEP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1270;"	l	line:1270
+pUEP	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	1272;"	l	line:1272
+packet	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	623;"	m	line:623	union:_CDC_NOTICE
+persistent	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	157;"	d	line:157
+pid	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	369;"	m	line:369	struct:_transfer_event_data
+port	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	384;"	m	line:384	struct:_vbus_power_data
+putUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	423;"	f	line:423	signature:(char *data, BYTE length)
+putUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	646;"	p	line:646	signature:(char *data, BYTE Length)
+putrsUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	593;"	f	line:593	signature:(const ROM char *data)
+putrsUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	645;"	p	line:645	signature:(const ROM char *data)
+putsUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.c	496;"	f	line:496	signature:(char *data)
+putsUSBUSART	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_function_cdc.h	647;"	p	line:647	signature:(char *data)
+recipient	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	357;"	m	line:357
+requestInfo	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	361;"	m	line:361
+reserved	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1151;"	m	line:1151
+reserved	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1178;"	m	line:1178
+rom	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	138;"	d	line:138
+sd000	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	271;"	v	line:271
+sd001	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	275;"	v	line:275
+sd002	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	282;"	v	line:282
+self_power::1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	64;"	d	line:64
+self_power::PORTAbits.RA2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	62;"	d	line:62
+setup_cnt	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	919;"	l	line:919
+shortPacketStatus	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.c	189;"	v	line:189
+size	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	368;"	m	line:368	struct:_transfer_event_data
+strcatpgm2ram::(a,b)strcat(a,b)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	118;"	d	line:118
+strchrpgm::(a,b)strchr(a,b)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	117;"	d	line:117
+strcmppgm2ram::(a,b)strcmp(a,b)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	111;"	d	line:111
+strcpypgm2ram::(a,b)strcpy(a,b)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	113;"	d	line:113
+strcpypgm2ram::(a,b)strcpypgm2ram(a,(farromch	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	132;"	d	line:132
+string	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	271;"	m	line:271	file:
+string	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	275;"	m	line:275	file:
+string	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_descriptors.c	282;"	m	line:282	file:
+stringPrinted	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	54;"	v	line:54
+strlenpgm::(a)strlen(a)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	116;"	d	line:116
+strncpypgm2ram::(a,b,c)strncpy(a,b,c)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	114;"	d	line:114
+strstrrampgm::(a,b)strstr(a,b)	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\Compiler.h	115;"	d	line:115
+sw2::PORTBbits.RB4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	136;"	d	line:136
+sw3::PORTBbits.RB5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	137;"	d	line:137
+tosend	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\main.c	146;"	l	line:146
+tris_self_power::TRISAbits.TRISA2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	60;"	d	line:60
+tris_usb_bus_sense::TRISAbits.TRISA1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	68;"	d	line:68
+tris_usb_oe::TRISCbits.TRISC1	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	145;"	d	line:145
+tris_usb_rcv::TRISAbits.TRISA4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	142;"	d	line:142
+tris_usb_suspnd::TRISAbits.TRISA3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	147;"	d	line:147
+tris_usb_vm::TRISCbits.TRISC4	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	144;"	d	line:144
+tris_usb_vmo::TRISBbits.TRISB2	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	141;"	d	line:141
+tris_usb_vp::TRISCbits.TRISC5	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	143;"	d	line:143
+tris_usb_vpo::TRISBbits.TRISB3	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\HardwareProfile - PICDEM FSUSB.h	140;"	d	line:140
+type	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	240;"	m	line:240
+type	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	358;"	m	line:358
+v	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	375;"	m	line:375	union:__BDT
+wCount	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1160;"	m	line:1160
+wCount	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1184;"	m	line:1184
+wIndex	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	326;"	m	line:326
+wLangID	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	369;"	m	line:369
+wLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	327;"	m	line:327
+wMaxPacketSize	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	193;"	m	line:193	struct:_USB_ENDPOINT_DESCRIPTOR
+wRam	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1142;"	m	line:1142
+wRam	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1172;"	m	line:1172
+wRam	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	428;"	m	line:428	union:_POINTER
+wRom	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_device.h	1143;"	m	line:1143
+wRom	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_hal_pic18.h	432;"	m	line:432	union:_POINTER
+wTotalLength	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	145;"	m	line:145	struct:_USB_CONFIGURATION_DESCRIPTOR
+wValue	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_ch9.h	325;"	m	line:325
+word	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	193;"	m	line:193
+word	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	262;"	m	line:262
+word	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	408;"	m	line:408
+word	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	476;"	m	line:476
+wordUnion	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	205;"	m	line:205
+wordUnion	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\GenericTypeDefs.h	420;"	m	line:420
+zero_pkt	D:\Silvio\MyProject\PIC USB KIT JSDM\Application\USB CDC\Firmware\usb_common.h	175;"	m	line:175
