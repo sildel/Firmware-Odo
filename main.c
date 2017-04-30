@@ -58,7 +58,10 @@ volatile BYTE buttonCount;
 unsigned int odoCounter;
 unsigned char saveKm;
 unsigned int delta;
-
+union{
+    unsigned int value;
+    unsigned char bytes[2];
+}diff;
 union {
     unsigned long value;
     unsigned char bytes[4];
@@ -121,6 +124,7 @@ void YourHighPriorityISRCode() {
         TMR0L = 0xE5;
 
         delta = odoCounter;
+        diff.value = delta;
         odoCounter = 0;
         if(delta!=0){
             km.value += delta;
@@ -155,8 +159,10 @@ void main(void) {
 
     while (1) {
         ProcessIO();
-        if (saveKm) {
+        if (saveKm && delta>2) {
+            LATE |= 0x01;
             saveKm = 0;
+
             EECON1bits.EEPGD = 0; // access to eeprom
             EECON1bits.WREN = 1; // write enable
 
@@ -203,6 +209,8 @@ void main(void) {
 
             while (!PIR2bits.EEIF); // wait until write ends
             PIR2bits.EEIF = 0; // clear write flag
+
+            LATE &= 0xFE;
         }
     }
 }
@@ -355,6 +363,18 @@ void ProcessIO(void) {
                     case 'c':
                     case 'C':
                         km.value = 0;
+                        break;
+
+                    case 'e':
+                    case 'E':
+                        tosend[0] = km.bytes[0];
+                        tosend[1] = km.bytes[1];
+                        tosend[2] = km.bytes[2];
+                        tosend[3] = km.bytes[3];
+                        tosend[4] = diff.bytes[0];
+                        tosend[5] = diff.bytes[1];
+
+                        putUSBUSART((char*) tosend, 6);
                         break;
 
                     case 'd':
