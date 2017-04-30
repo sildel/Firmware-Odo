@@ -65,7 +65,7 @@ union{
 union {
     unsigned long value;
     unsigned char bytes[4];
-} km;
+} km, backup;
 /////////////////////////////////////////////////////////////////
 static void InitializeSystem(void);
 void ProcessIO(void);
@@ -159,58 +159,55 @@ void main(void) {
 
     while (1) {
         ProcessIO();
-        if (saveKm && delta>2) {
-            LATE |= 0x01;
+        if (saveKm) {
+            LATE &= 0xFE;
             saveKm = 0;
+            
+            INTCONbits.GIE = 0; // disable interrupts
 
             EECON1bits.EEPGD = 0; // access to eeprom
             EECON1bits.WREN = 1; // write enable
 
             EEADR = 0; // address to write
             EEDATA = km.bytes[0]; // data to write
-            INTCONbits.GIE = 0; // disable interrupts
             EECON2 = 0x55; // sequence 1
             EECON2 = 0xAA; // sequence 2
             EECON1bits.WR = 1; // trigger write
-            INTCONbits.GIE = 1; // enable interrupts
 
             while (!PIR2bits.EEIF); // wait until write ends
             PIR2bits.EEIF = 0; // clear write flag
 
             EEADR = 1; // address to write
             EEDATA = km.bytes[1]; // data to write
-            INTCONbits.GIE = 0; // disable interrupts
             EECON2 = 0x55; // sequence 1
             EECON2 = 0xAA; // sequence 2
             EECON1bits.WR = 1; // trigger write
-            INTCONbits.GIE = 1; // enable interrupts
 
             while (!PIR2bits.EEIF); // wait until write ends
             PIR2bits.EEIF = 0; // clear write flag
 
             EEADR = 2; // address to write
             EEDATA = km.bytes[2]; // data to write
-            INTCONbits.GIE = 0; // disable interrupts
             EECON2 = 0x55; // sequence 1
             EECON2 = 0xAA; // sequence 2
             EECON1bits.WR = 1; // trigger write
-            INTCONbits.GIE = 1; // enable interrupts
 
             while (!PIR2bits.EEIF); // wait until write ends
             PIR2bits.EEIF = 0; // clear write flag
 
             EEADR = 3; // address to write
             EEDATA = km.bytes[3]; // data to write
-            INTCONbits.GIE = 0; // disable interrupts
             EECON2 = 0x55; // sequence 1
             EECON2 = 0xAA; // sequence 2
             EECON1bits.WR = 1; // trigger write
-            INTCONbits.GIE = 1; // enable interrupts
 
             while (!PIR2bits.EEIF); // wait until write ends
             PIR2bits.EEIF = 0; // clear write flag
 
-            LATE &= 0xFE;
+            EECON1bits.WREN = 0; // write disable
+            INTCONbits.GIE = 1; // enable interrupts
+            
+            LATE |= 0x01;
         }
     }
 }
